@@ -1,0 +1,1017 @@
+,Dataset,Normalizer,Featurizer,Pairwise_features,Scaler,Classifier,grid_accuracy_mean,grid_accuracy_std,grid_accuracy_best_params,eval_accuracy_mean,eval_accuracy_std,eval_accuracy_scores,grid_roc_auc_mean,grid_roc_auc_std,grid_roc_auc_best_params,eval_roc_auc_mean,eval_roc_auc_std,eval_roc_auc_scores
+0,IPCAS_1_proba_csd_con_aparc150+subcort,binar,bag_of_edges,l1_l2_linf,standard,LR,0.942307692308,0.0707455367247,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.952727272727,0.0609565622336,"[ 1.          0.90909091  1.          1.          1.          1.
+  0.90909091  0.90909091  1.          0.90909091  0.90909091  1.          1.
+  0.90909091  0.90909091  0.81818182  0.90909091  0.90909091  1.
+  0.90909091  0.90909091  0.81818182  1.          1.          0.90909091
+  1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.81818182  1.          1.          1.          1.
+  1.          1.          0.90909091  0.81818182  0.81818182  1.          1.
+  1.          1.          0.90909091  1.        ]",0.99358974359,0.011703473451,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.994666666667,0.0154344492037,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  0.96666667  1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.96666667
+  0.96666667  1.          1.          1.          1.          1.          1.
+  1.          0.96666667  0.93333333  1.          1.          1.          1.
+  1.          1.        ]"
+1,IPCAS_1_proba_csd_con_aparc150+subcort,binar,bag_of_edges,l1_l2_linf,standard,SGD,0.980769230769,0.0351104203529,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 1.0, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.932727272727,0.065074655157,"[ 1.          0.90909091  0.90909091  1.          1.          0.90909091
+  0.90909091  0.90909091  1.          0.90909091  1.          1.          1.
+  1.          0.90909091  0.81818182  0.81818182  0.90909091  0.81818182
+  0.90909091  0.90909091  0.81818182  0.90909091  1.          1.
+  0.90909091  1.          0.90909091  1.          0.90909091  0.81818182
+  1.          0.90909091  0.90909091  0.81818182  0.90909091  1.
+  0.90909091  1.          1.          1.          0.81818182  0.90909091
+  0.81818182  0.90909091  1.          1.          1.          0.90909091
+  1.        ]",0.99358974359,0.011703473451,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.994666666667,0.0154344492037,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  0.96666667  1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.96666667
+  0.96666667  1.          1.          1.          1.          1.          1.
+  1.          0.96666667  0.93333333  1.          1.          1.          1.
+  1.          1.        ]"
+2,IPCAS_1_proba_csd_con_aparc150+subcort,binar,degrees,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.45, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.983636363636,0.0349261322042,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.994,0.0172433562085,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+3,IPCAS_1_proba_csd_con_aparc150+subcort,binar,degrees,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.01, 'l1_ratio': 0.4, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+4,IPCAS_1_proba_csd_con_aparc150+subcort,binar,closeness_centrality,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.25, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.983636363636,0.0349261322042,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.
+  0.90909091  1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.          1.          0.90909091  1.
+  0.90909091  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.996666666667,0.0120185042515,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+5,IPCAS_1_proba_csd_con_aparc150+subcort,binar,closeness_centrality,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.994545454545,0.0215897128855,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+6,IPCAS_1_proba_csd_con_aparc150+subcort,binar,betweenness_centrality,l1_l2_linf,standard,LR,0.942307692308,0.0494047406872,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.943636363636,0.0542110964214,"[ 0.90909091  0.90909091  0.90909091  1.          0.90909091  1.
+  0.81818182  0.90909091  1.          1.          1.          0.90909091
+  0.90909091  0.90909091  0.81818182  0.90909091  0.90909091  1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          0.90909091  0.90909091  0.90909091  1.          1.
+  0.90909091  0.90909091  0.90909091  1.          1.          1.          1.
+  0.90909091  1.          1.          0.90909091  0.90909091  0.81818182
+  0.90909091  0.90909091  0.90909091  0.90909091  0.90909091]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.1, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+7,IPCAS_1_proba_csd_con_aparc150+subcort,binar,betweenness_centrality,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 1.0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.954545454545,0.0522232967867,"[ 1.          0.90909091  0.90909091  1.          1.          1.          1.
+  0.90909091  1.          0.90909091  1.          0.81818182  0.90909091
+  0.90909091  0.90909091  0.90909091  1.          1.          1.          1.
+  0.90909091  0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  0.90909091  1.          1.          0.90909091
+  0.90909091  0.90909091  0.90909091  1.          0.81818182  0.90909091
+  1.          1.          1.          0.90909091  1.          0.90909091
+  0.90909091  1.          1.          0.90909091  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  0.96666667  1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          0.96666667  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+8,IPCAS_1_proba_csd_con_aparc150+subcort,binar,eigenvector_centrality,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.25, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.976363636364,0.0474472303662,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  0.81818182  1.          1.          1.          1.
+  0.90909091  1.          0.81818182  1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  0.90909091  1.          0.90909091  0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.991333333333,0.0256558418732,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.96666667  0.86666667  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+9,IPCAS_1_proba_csd_con_aparc150+subcort,binar,eigenvector_centrality,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.2, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.981818181818,0.0363636363636,"[ 1.          0.90909091  1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  0.90909091  1.          1.          1.
+  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.999333333333,0.00466666666667,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+10,IPCAS_1_proba_csd_con_aparc150+subcort,binar,pagerank,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.1, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.976363636364,0.0474472303662,"[ 1.          1.          1.          1.          1.          1.
+  0.90909091  0.90909091  1.          0.90909091  1.          1.          1.
+  0.90909091  0.90909091  1.          0.90909091  1.          1.          1.
+  1.          0.81818182  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  0.90909091  0.81818182  1.          1.          1.          1.          1.
+  0.90909091  1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.989333333333,0.0261958436059,"[ 1.          1.          1.          1.          0.93333333  1.          1.
+  1.          0.93333333  0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+11,IPCAS_1_proba_csd_con_aparc150+subcort,binar,pagerank,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.992727272727,0.0246630181205,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+12,IPCAS_1_proba_csd_con_aparc150+subcort,binar,efficiency,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.45, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.983636363636,0.0349261322042,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.994,0.0172433562085,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+13,IPCAS_1_proba_csd_con_aparc150+subcort,binar,efficiency,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.01, 'l1_ratio': 0.4, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+14,IPCAS_1_proba_csd_con_aparc150+subcort,binar,clustering_coefficient,l1_l2_linf,standard,LR,0.942307692308,0.0494047406872,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.7000000000000001, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.92,0.0695677326171,"[ 0.90909091  0.90909091  0.90909091  1.          0.81818182  1.
+  0.81818182  0.90909091  0.90909091  0.90909091  0.90909091  0.90909091
+  0.90909091  0.90909091  0.72727273  0.90909091  0.81818182  1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          0.81818182  0.90909091  0.90909091  0.90909091  1.
+  0.90909091  0.90909091  0.90909091  1.          1.          0.90909091
+  1.          0.90909091  0.90909091  1.          0.81818182  0.90909091
+  0.72727273  0.81818182  0.90909091  0.90909091  0.90909091  0.90909091]",0.984615384615,0.0194601702164,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.1, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.986,0.021176506899,"[ 0.96666667  1.          0.96666667  1.          0.96666667  1.          1.
+  0.96666667  1.          1.          1.          0.93333333  0.96666667
+  0.96666667  0.93333333  1.          1.          1.          1.          1.
+  1.          0.96666667  1.          1.          1.          1.          1.
+  0.93333333  0.96666667  0.93333333  1.          1.          0.96666667
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  0.96666667  0.96666667  1.        ]"
+15,IPCAS_1_proba_csd_con_aparc150+subcort,binar,clustering_coefficient,l1_l2_linf,standard,SGD,0.961538461538,0.0486504255411,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.8, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.947272727273,0.0632194132753,"[ 0.90909091  0.90909091  1.          1.          0.90909091  1.
+  0.90909091  0.90909091  0.90909091  0.90909091  1.          1.          1.
+  0.72727273  0.81818182  0.90909091  0.90909091  1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  0.90909091  1.          0.90909091  0.81818182  1.          1.
+  0.90909091  1.          1.          1.          0.90909091  1.          1.
+  1.          1.          0.90909091  0.90909091  0.81818182  0.90909091
+  1.          0.90909091  0.90909091  0.90909091]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.2, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'modified_huber'}",0.995333333333,0.0176509363932,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.
+  0.93333333  1.          1.          0.96666667  1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.9         1.          1.          1.
+  1.          1.        ]"
+16,IPCAS_1_proba_csd_con_aparc150+subcort,binar,triangles,l1_l2_linf,standard,LR,0.980769230769,0.0394113490998,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.65, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.90909091
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.90909091
+  1.          1.          1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.998,0.00791622805803,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+17,IPCAS_1_proba_csd_con_aparc150+subcort,binar,triangles,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.1, 'l1_ratio': 0.8, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.978181818182,0.0428720949911,"[ 1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  0.90909091  0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          0.90909091  0.81818182
+  1.          0.90909091  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+18,IPCAS_1_proba_csd_con_aparc150+subcort,max,bag_of_edges,l1_l2_linf,standard,LR,0.942307692308,0.0707455367247,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.952727272727,0.0609565622336,"[ 1.          0.90909091  1.          1.          1.          1.
+  0.90909091  0.90909091  1.          0.90909091  0.90909091  1.          1.
+  0.90909091  0.90909091  0.81818182  0.90909091  0.90909091  1.
+  0.90909091  0.90909091  0.81818182  1.          1.          0.90909091
+  1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.81818182  1.          1.          1.          1.
+  1.          1.          0.90909091  0.81818182  0.81818182  1.          1.
+  1.          1.          0.90909091  1.        ]",0.99358974359,0.011703473451,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.994666666667,0.0154344492037,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  0.96666667  1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.96666667
+  0.96666667  1.          1.          1.          1.          1.          1.
+  1.          0.96666667  0.93333333  1.          1.          1.          1.
+  1.          1.        ]"
+19,IPCAS_1_proba_csd_con_aparc150+subcort,max,bag_of_edges,l1_l2_linf,standard,SGD,0.980769230769,0.0351104203529,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 1.0, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.932727272727,0.065074655157,"[ 1.          0.90909091  0.90909091  1.          1.          0.90909091
+  0.90909091  0.90909091  1.          0.90909091  1.          1.          1.
+  1.          0.90909091  0.81818182  0.81818182  0.90909091  0.81818182
+  0.90909091  0.90909091  0.81818182  0.90909091  1.          1.
+  0.90909091  1.          0.90909091  1.          0.90909091  0.81818182
+  1.          0.90909091  0.90909091  0.81818182  0.90909091  1.
+  0.90909091  1.          1.          1.          0.81818182  0.90909091
+  0.81818182  0.90909091  1.          1.          1.          0.90909091
+  1.        ]",0.99358974359,0.011703473451,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.994666666667,0.0154344492037,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  0.96666667  1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.96666667
+  0.96666667  1.          1.          1.          1.          1.          1.
+  1.          0.96666667  0.93333333  1.          1.          1.          1.
+  1.          1.        ]"
+20,IPCAS_1_proba_csd_con_aparc150+subcort,max,degrees,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.45, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.983636363636,0.0349261322042,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.994,0.0172433562085,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+21,IPCAS_1_proba_csd_con_aparc150+subcort,max,degrees,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.01, 'l1_ratio': 0.4, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+22,IPCAS_1_proba_csd_con_aparc150+subcort,max,closeness_centrality,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.25, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.983636363636,0.0349261322042,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.
+  0.90909091  1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.          1.          0.90909091  1.
+  0.90909091  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.996666666667,0.0120185042515,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+23,IPCAS_1_proba_csd_con_aparc150+subcort,max,closeness_centrality,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.994545454545,0.0215897128855,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+24,IPCAS_1_proba_csd_con_aparc150+subcort,max,betweenness_centrality,l1_l2_linf,standard,LR,0.942307692308,0.0494047406872,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.943636363636,0.0542110964214,"[ 0.90909091  0.90909091  0.90909091  1.          0.90909091  1.
+  0.81818182  0.90909091  1.          1.          1.          0.90909091
+  0.90909091  0.90909091  0.81818182  0.90909091  0.90909091  1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          0.90909091  0.90909091  0.90909091  1.          1.
+  0.90909091  0.90909091  0.90909091  1.          1.          1.          1.
+  0.90909091  1.          1.          0.90909091  0.90909091  0.81818182
+  0.90909091  0.90909091  0.90909091  0.90909091  0.90909091]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.1, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+25,IPCAS_1_proba_csd_con_aparc150+subcort,max,betweenness_centrality,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 1.0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.954545454545,0.0522232967867,"[ 1.          0.90909091  0.90909091  1.          1.          1.          1.
+  0.90909091  1.          0.90909091  1.          0.81818182  0.90909091
+  0.90909091  0.90909091  0.90909091  1.          1.          1.          1.
+  0.90909091  0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  0.90909091  1.          1.          0.90909091
+  0.90909091  0.90909091  0.90909091  1.          0.81818182  0.90909091
+  1.          1.          1.          0.90909091  1.          0.90909091
+  0.90909091  1.          1.          0.90909091  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  0.96666667  1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          0.96666667  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+26,IPCAS_1_proba_csd_con_aparc150+subcort,max,eigenvector_centrality,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.25, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.976363636364,0.0474472303662,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  0.81818182  1.          1.          1.          1.
+  0.90909091  1.          0.81818182  1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  0.90909091  1.          0.90909091  0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.991333333333,0.0256558418732,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.96666667  0.86666667  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+27,IPCAS_1_proba_csd_con_aparc150+subcort,max,eigenvector_centrality,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.2, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.981818181818,0.0363636363636,"[ 1.          0.90909091  1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  0.90909091  1.          1.          1.
+  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.999333333333,0.00466666666667,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+28,IPCAS_1_proba_csd_con_aparc150+subcort,max,pagerank,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.1, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.976363636364,0.0474472303662,"[ 1.          1.          1.          1.          1.          1.
+  0.90909091  0.90909091  1.          0.90909091  1.          1.          1.
+  0.90909091  0.90909091  1.          0.90909091  1.          1.          1.
+  1.          0.81818182  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  0.90909091  0.81818182  1.          1.          1.          1.          1.
+  0.90909091  1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.989333333333,0.0261958436059,"[ 1.          1.          1.          1.          0.93333333  1.          1.
+  1.          0.93333333  0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+29,IPCAS_1_proba_csd_con_aparc150+subcort,max,pagerank,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.992727272727,0.0246630181205,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+30,IPCAS_1_proba_csd_con_aparc150+subcort,max,efficiency,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.45, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.983636363636,0.0349261322042,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.994,0.0172433562085,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+31,IPCAS_1_proba_csd_con_aparc150+subcort,max,efficiency,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.01, 'l1_ratio': 0.4, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+32,IPCAS_1_proba_csd_con_aparc150+subcort,max,clustering_coefficient,l1_l2_linf,standard,LR,0.942307692308,0.0494047406872,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.7000000000000001, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.92,0.0695677326171,"[ 0.90909091  0.90909091  0.90909091  1.          0.81818182  1.
+  0.81818182  0.90909091  0.90909091  0.90909091  0.90909091  0.90909091
+  0.90909091  0.90909091  0.72727273  0.90909091  0.81818182  1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          0.81818182  0.90909091  0.90909091  0.90909091  1.
+  0.90909091  0.90909091  0.90909091  1.          1.          0.90909091
+  1.          0.90909091  0.90909091  1.          0.81818182  0.90909091
+  0.72727273  0.81818182  0.90909091  0.90909091  0.90909091  0.90909091]",0.984615384615,0.0194601702164,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.1, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.986,0.021176506899,"[ 0.96666667  1.          0.96666667  1.          0.96666667  1.          1.
+  0.96666667  1.          1.          1.          0.93333333  0.96666667
+  0.96666667  0.93333333  1.          1.          1.          1.          1.
+  1.          0.96666667  1.          1.          1.          1.          1.
+  0.93333333  0.96666667  0.93333333  1.          1.          0.96666667
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  0.96666667  0.96666667  1.        ]"
+33,IPCAS_1_proba_csd_con_aparc150+subcort,max,clustering_coefficient,l1_l2_linf,standard,SGD,0.961538461538,0.0486504255411,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.8, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.947272727273,0.0632194132753,"[ 0.90909091  0.90909091  1.          1.          0.90909091  1.
+  0.90909091  0.90909091  0.90909091  0.90909091  1.          1.          1.
+  0.72727273  0.81818182  0.90909091  0.90909091  1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  0.90909091  1.          0.90909091  0.81818182  1.          1.
+  0.90909091  1.          1.          1.          0.90909091  1.          1.
+  1.          1.          0.90909091  0.90909091  0.81818182  0.90909091
+  1.          0.90909091  0.90909091  0.90909091]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.2, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'modified_huber'}",0.995333333333,0.0176509363932,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.
+  0.93333333  1.          1.          0.96666667  1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.9         1.          1.          1.
+  1.          1.        ]"
+34,IPCAS_1_proba_csd_con_aparc150+subcort,max,triangles,l1_l2_linf,standard,LR,0.980769230769,0.0394113490998,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.65, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.90909091
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.90909091
+  1.          1.          1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.998,0.00791622805803,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+35,IPCAS_1_proba_csd_con_aparc150+subcort,max,triangles,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.1, 'l1_ratio': 0.8, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.978181818182,0.0428720949911,"[ 1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  0.90909091  0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          0.90909091  0.81818182
+  1.          0.90909091  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+36,IPCAS_1_proba_csd_con_aparc150+subcort,mean,bag_of_edges,l1_l2_linf,standard,LR,0.980769230769,0.0394113490998,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.9500000000000001, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.965454545455,0.0571788552492,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          0.90909091
+  1.          0.90909091  0.81818182  0.90909091  1.          1.          1.
+  1.          0.81818182  1.          1.          0.90909091  1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  0.90909091  0.81818182  1.          1.          1.          1.          1.
+  1.          0.90909091  0.81818182  0.90909091  0.90909091  1.          1.
+  1.          1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.55, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.997333333333,0.0112348663642,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.96666667
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.        ]"
+37,IPCAS_1_proba_csd_con_aparc150+subcort,mean,bag_of_edges,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998181818182,0.0127272727273,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+38,IPCAS_1_proba_csd_con_aparc150+subcort,mean,degrees,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.5, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          1.          1.
+  0.90909091  1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.          0.90909091  1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  0.90909091  0.90909091  1.          1.          1.          1.          1.
+  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.989333333333,0.0261958436059,"[ 1.          1.          1.          1.          0.93333333  1.          1.
+  1.          0.93333333  0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+39,IPCAS_1_proba_csd_con_aparc150+subcort,mean,degrees,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.999333333333,0.00466666666667,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+40,IPCAS_1_proba_csd_con_aparc150+subcort,mean,closeness_centrality,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.981818181818,0.0406557814091,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  0.90909091  1.          0.90909091  1.          1.          1.
+  0.81818182  1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.          1.          0.90909091  1.
+  0.90909091  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.96666667  1.          1.          1.
+  1.        ]"
+41,IPCAS_1_proba_csd_con_aparc150+subcort,mean,closeness_centrality,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.996363636364,0.0178144708566,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+42,IPCAS_1_proba_csd_con_aparc150+subcort,mean,betweenness_centrality,l1_l2_linf,standard,LR,0.596153846154,0.103083620142,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.2, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.589090909091,0.14111714845,"[ 0.45454545  0.63636364  0.72727273  0.63636364  0.45454545  0.72727273
+  0.72727273  0.54545455  0.27272727  0.63636364  0.54545455  0.45454545
+  0.45454545  0.54545455  0.63636364  0.81818182  0.63636364  0.54545455
+  0.27272727  0.63636364  0.72727273  0.45454545  0.63636364  0.54545455
+  0.54545455  0.45454545  0.63636364  0.45454545  0.90909091  0.45454545
+  0.18181818  0.54545455  0.63636364  0.54545455  0.63636364  0.72727273
+  0.63636364  0.36363636  0.81818182  0.72727273  0.72727273  0.63636364
+  0.63636364  0.63636364  0.72727273  0.54545455  0.72727273  0.63636364
+  0.54545455  0.63636364]",0.70641025641,0.127568504842,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.701333333333,0.152309626164,"[ 0.53333333  0.8         0.83333333  0.86666667  0.6         0.76666667
+  0.76666667  0.63333333  0.46666667  0.9         0.63333333  0.6
+  0.66666667  0.66666667  0.63333333  0.9         0.7         0.63333333
+  0.3         0.8         0.93333333  0.5         0.8         0.73333333
+  0.66666667  0.53333333  0.66666667  0.46666667  1.          0.53333333
+  0.36666667  0.63333333  0.73333333  0.63333333  0.73333333  0.76666667
+  0.86666667  0.46666667  0.86666667  0.8         0.86666667  0.7         0.6
+  0.7         0.83333333  0.96666667  0.83333333  0.76666667  0.6         0.8       ]"
+43,IPCAS_1_proba_csd_con_aparc150+subcort,mean,betweenness_centrality,l1_l2_linf,standard,SGD,0.615384615385,0.0680816310121,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 1.0, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.596363636364,0.124860252461,"[ 0.54545455  0.63636364  0.72727273  0.54545455  0.45454545  0.54545455
+  0.63636364  0.54545455  0.27272727  0.72727273  0.63636364  0.45454545
+  0.54545455  0.63636364  0.63636364  0.72727273  0.63636364  0.54545455
+  0.45454545  0.63636364  0.72727273  0.45454545  0.54545455  0.54545455
+  0.54545455  0.45454545  0.81818182  0.45454545  0.90909091  0.45454545
+  0.36363636  0.54545455  0.54545455  0.72727273  0.72727273  0.63636364
+  0.54545455  0.45454545  0.81818182  0.72727273  0.72727273  0.45454545
+  0.54545455  0.63636364  0.72727273  0.54545455  0.72727273  0.63636364
+  0.54545455  0.72727273]",0.70641025641,0.127568504842,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.1, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.696666666667,0.150886270637,"[ 0.53333333  0.8         0.83333333  0.86666667  0.63333333  0.76666667
+  0.76666667  0.63333333  0.46666667  0.9         0.6         0.6
+  0.66666667  0.66666667  0.63333333  0.9         0.7         0.63333333
+  0.3         0.8         0.93333333  0.5         0.76666667  0.73333333
+  0.63333333  0.53333333  0.63333333  0.46666667  1.          0.53333333
+  0.36666667  0.63333333  0.7         0.63333333  0.73333333  0.73333333
+  0.86666667  0.46666667  0.86666667  0.8         0.83333333  0.7         0.6
+  0.7         0.83333333  0.96666667  0.8         0.76666667  0.6         0.8       ]"
+44,IPCAS_1_proba_csd_con_aparc150+subcort,mean,eigenvector_centrality,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.25, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.976363636364,0.0474472303662,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  0.81818182  1.          1.          1.          1.
+  0.90909091  1.          0.81818182  1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  0.90909091  1.          0.90909091  0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.991333333333,0.0256558418732,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.96666667  0.86666667  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+45,IPCAS_1_proba_csd_con_aparc150+subcort,mean,eigenvector_centrality,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.2, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.981818181818,0.0363636363636,"[ 1.          0.90909091  1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  0.90909091  1.          1.          1.
+  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.999333333333,0.00466666666667,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+46,IPCAS_1_proba_csd_con_aparc150+subcort,mean,pagerank,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.1, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.976363636364,0.0474472303662,"[ 1.          1.          1.          1.          1.          1.
+  0.90909091  0.90909091  1.          0.90909091  1.          1.          1.
+  0.90909091  0.90909091  1.          0.90909091  1.          1.          1.
+  1.          0.81818182  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  0.90909091  0.81818182  1.          1.          1.          1.          1.
+  0.90909091  1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.989333333333,0.0261958436059,"[ 1.          1.          1.          1.          0.93333333  1.          1.
+  1.          0.93333333  0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+47,IPCAS_1_proba_csd_con_aparc150+subcort,mean,pagerank,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.992727272727,0.0246630181205,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+48,IPCAS_1_proba_csd_con_aparc150+subcort,mean,efficiency,l1_l2_linf,standard,LR,0.961538461538,0.0486504255411,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.970909090909,0.049593387989,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          0.90909091
+  0.90909091  1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          0.90909091  1.          0.90909091
+  1.          0.90909091  1.          1.          0.90909091  1.          1.
+  1.          1.          1.          1.          0.81818182  0.81818182
+  1.          0.90909091  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.990666666667,0.0240739601137,"[ 1.          1.          1.          1.          0.9         1.          1.
+  1.          0.96666667  0.93333333  1.          1.          1.
+  0.96666667  1.          1.          0.9         1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.93333333  1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.96666667  0.96666667  1.          1.
+  1.          1.        ]"
+49,IPCAS_1_proba_csd_con_aparc150+subcort,mean,efficiency,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.2, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.          0.90909091  0.90909091  1.
+  0.90909091  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+50,IPCAS_1_proba_csd_con_aparc150+subcort,mean,clustering_coefficient,l1_l2_linf,standard,LR,0.942307692308,0.0494047406872,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.7000000000000001, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.92,0.0695677326171,"[ 0.90909091  0.90909091  0.90909091  1.          0.81818182  1.
+  0.81818182  0.90909091  0.90909091  0.90909091  0.90909091  0.90909091
+  0.90909091  0.90909091  0.72727273  0.90909091  0.81818182  1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          0.81818182  0.90909091  0.90909091  0.90909091  1.
+  0.90909091  0.90909091  0.90909091  1.          1.          0.90909091
+  1.          0.90909091  0.90909091  1.          0.81818182  0.90909091
+  0.72727273  0.81818182  0.90909091  0.90909091  0.90909091  0.90909091]",0.984615384615,0.0194601702164,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.1, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.986,0.021176506899,"[ 0.96666667  1.          0.96666667  1.          0.96666667  1.          1.
+  0.96666667  1.          1.          1.          0.93333333  0.96666667
+  0.96666667  0.93333333  1.          1.          1.          1.          1.
+  1.          0.96666667  1.          1.          1.          1.          1.
+  0.93333333  0.96666667  0.93333333  1.          1.          0.96666667
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  0.96666667  0.96666667  1.        ]"
+51,IPCAS_1_proba_csd_con_aparc150+subcort,mean,clustering_coefficient,l1_l2_linf,standard,SGD,0.961538461538,0.0486504255411,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.8, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.947272727273,0.0632194132753,"[ 0.90909091  0.90909091  1.          1.          0.90909091  1.
+  0.90909091  0.90909091  0.90909091  0.90909091  1.          1.          1.
+  0.72727273  0.81818182  0.90909091  0.90909091  1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  0.90909091  1.          0.90909091  0.81818182  1.          1.
+  0.90909091  1.          1.          1.          0.90909091  1.          1.
+  1.          1.          0.90909091  0.90909091  0.81818182  0.90909091
+  1.          0.90909091  0.90909091  0.90909091]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.2, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'modified_huber'}",0.995333333333,0.0176509363932,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.
+  0.93333333  1.          1.          0.96666667  1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.9         1.          1.          1.
+  1.          1.        ]"
+52,IPCAS_1_proba_csd_con_aparc150+subcort,mean,triangles,l1_l2_linf,standard,LR,0.980769230769,0.0394113490998,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.65, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.90909091
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.90909091
+  1.          1.          1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.998,0.00791622805803,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+53,IPCAS_1_proba_csd_con_aparc150+subcort,mean,triangles,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.1, 'l1_ratio': 0.8, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.978181818182,0.0428720949911,"[ 1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  0.90909091  0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          0.90909091  0.81818182
+  1.          0.90909091  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+54,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,bag_of_edges,l1_l2_linf,standard,LR,0.980769230769,0.0394113490998,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.9500000000000001, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.965454545455,0.0571788552492,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          0.90909091
+  1.          0.90909091  0.81818182  0.90909091  1.          1.          1.
+  1.          0.81818182  1.          1.          0.90909091  1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  0.90909091  0.81818182  1.          1.          1.          1.          1.
+  1.          0.90909091  0.81818182  0.90909091  0.90909091  1.          1.
+  1.          1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.55, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.997333333333,0.0112348663642,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.96666667
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.        ]"
+55,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,bag_of_edges,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998181818182,0.0127272727273,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+56,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,degrees,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.5, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          1.          1.
+  0.90909091  1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.          0.90909091  1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  0.90909091  0.90909091  1.          1.          1.          1.          1.
+  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.989333333333,0.0261958436059,"[ 1.          1.          1.          1.          0.93333333  1.          1.
+  1.          0.93333333  0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+57,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,degrees,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.999333333333,0.00466666666667,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+58,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,closeness_centrality,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.981818181818,0.0406557814091,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  0.90909091  1.          0.90909091  1.          1.          1.
+  0.81818182  1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.          1.          0.90909091  1.
+  0.90909091  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.96666667  1.          1.          1.
+  1.        ]"
+59,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,closeness_centrality,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.996363636364,0.0178144708566,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",1.0,0.0,"[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.
+  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]"
+60,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,betweenness_centrality,l1_l2_linf,standard,LR,0.596153846154,0.103083620142,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.2, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.589090909091,0.14111714845,"[ 0.45454545  0.63636364  0.72727273  0.63636364  0.45454545  0.72727273
+  0.72727273  0.54545455  0.27272727  0.63636364  0.54545455  0.45454545
+  0.45454545  0.54545455  0.63636364  0.81818182  0.63636364  0.54545455
+  0.27272727  0.63636364  0.72727273  0.45454545  0.63636364  0.54545455
+  0.54545455  0.45454545  0.63636364  0.45454545  0.90909091  0.45454545
+  0.18181818  0.54545455  0.63636364  0.54545455  0.63636364  0.72727273
+  0.63636364  0.36363636  0.81818182  0.72727273  0.72727273  0.63636364
+  0.63636364  0.63636364  0.72727273  0.54545455  0.72727273  0.63636364
+  0.54545455  0.63636364]",0.70641025641,0.127568504842,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.701333333333,0.152309626164,"[ 0.53333333  0.8         0.83333333  0.86666667  0.6         0.76666667
+  0.76666667  0.63333333  0.46666667  0.9         0.63333333  0.6
+  0.66666667  0.66666667  0.63333333  0.9         0.7         0.63333333
+  0.3         0.8         0.93333333  0.5         0.8         0.73333333
+  0.66666667  0.53333333  0.66666667  0.46666667  1.          0.53333333
+  0.36666667  0.63333333  0.73333333  0.63333333  0.73333333  0.76666667
+  0.86666667  0.46666667  0.86666667  0.8         0.86666667  0.7         0.6
+  0.7         0.83333333  0.96666667  0.83333333  0.76666667  0.6         0.8       ]"
+61,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,betweenness_centrality,l1_l2_linf,standard,SGD,0.615384615385,0.0680816310121,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 1.0, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.596363636364,0.124860252461,"[ 0.54545455  0.63636364  0.72727273  0.54545455  0.45454545  0.54545455
+  0.63636364  0.54545455  0.27272727  0.72727273  0.63636364  0.45454545
+  0.54545455  0.63636364  0.63636364  0.72727273  0.63636364  0.54545455
+  0.45454545  0.63636364  0.72727273  0.45454545  0.54545455  0.54545455
+  0.54545455  0.45454545  0.81818182  0.45454545  0.90909091  0.45454545
+  0.36363636  0.54545455  0.54545455  0.72727273  0.72727273  0.63636364
+  0.54545455  0.45454545  0.81818182  0.72727273  0.72727273  0.45454545
+  0.54545455  0.63636364  0.72727273  0.54545455  0.72727273  0.63636364
+  0.54545455  0.72727273]",0.70641025641,0.127568504842,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.1, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.696666666667,0.150886270637,"[ 0.53333333  0.8         0.83333333  0.86666667  0.63333333  0.76666667
+  0.76666667  0.63333333  0.46666667  0.9         0.6         0.6
+  0.66666667  0.66666667  0.63333333  0.9         0.7         0.63333333
+  0.3         0.8         0.93333333  0.5         0.76666667  0.73333333
+  0.63333333  0.53333333  0.63333333  0.46666667  1.          0.53333333
+  0.36666667  0.63333333  0.7         0.63333333  0.73333333  0.73333333
+  0.86666667  0.46666667  0.86666667  0.8         0.83333333  0.7         0.6
+  0.7         0.83333333  0.96666667  0.8         0.76666667  0.6         0.8       ]"
+62,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,eigenvector_centrality,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.25, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.976363636364,0.0474472303662,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  0.81818182  1.          1.          1.          1.
+  0.90909091  1.          0.81818182  1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  0.90909091  1.          0.90909091  0.90909091  1.          0.90909091
+  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.991333333333,0.0256558418732,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          0.96666667  0.86666667  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+63,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,eigenvector_centrality,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.2, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.981818181818,0.0363636363636,"[ 1.          0.90909091  1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          0.90909091  0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  0.90909091  1.          1.          1.
+  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.999333333333,0.00466666666667,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+64,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,pagerank,l1_l2_linf,standard,LR,1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.1, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.976363636364,0.0474472303662,"[ 1.          1.          1.          1.          1.          1.
+  0.90909091  0.90909091  1.          0.90909091  1.          1.          1.
+  0.90909091  0.90909091  1.          0.90909091  1.          1.          1.
+  1.          0.81818182  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  0.90909091  0.81818182  1.          1.          1.          1.          1.
+  0.90909091  1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.989333333333,0.0261958436059,"[ 1.          1.          1.          1.          0.93333333  1.          1.
+  1.          0.93333333  0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.9         1.          1.          1.          1.
+  1.          1.          0.93333333  1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+65,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,pagerank,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.992727272727,0.0246630181205,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.        ]"
+66,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,efficiency,l1_l2_linf,standard,LR,0.961538461538,0.0486504255411,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.01, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.970909090909,0.049593387989,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  0.90909091  1.          1.          0.90909091
+  0.90909091  1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          0.90909091  1.          0.90909091
+  1.          0.90909091  1.          1.          0.90909091  1.          1.
+  1.          1.          1.          1.          0.81818182  0.81818182
+  1.          0.90909091  1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.990666666667,0.0240739601137,"[ 1.          1.          1.          1.          0.9         1.          1.
+  1.          0.96666667  0.93333333  1.          1.          1.
+  0.96666667  1.          1.          0.9         1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.93333333  1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.96666667  0.96666667  1.          1.
+  1.          1.        ]"
+67,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,efficiency,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.2, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          0.90909091  1.          1.
+  1.          0.90909091  1.          1.          1.          1.
+  0.90909091  1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.          0.90909091  0.90909091  1.
+  0.90909091  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+68,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,clustering_coefficient,l1_l2_linf,standard,LR,0.942307692308,0.0494047406872,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.7000000000000001, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.92,0.0695677326171,"[ 0.90909091  0.90909091  0.90909091  1.          0.81818182  1.
+  0.81818182  0.90909091  0.90909091  0.90909091  0.90909091  0.90909091
+  0.90909091  0.90909091  0.72727273  0.90909091  0.81818182  1.          1.
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          0.81818182  0.90909091  0.90909091  0.90909091  1.
+  0.90909091  0.90909091  0.90909091  1.          1.          0.90909091
+  1.          0.90909091  0.90909091  1.          0.81818182  0.90909091
+  0.72727273  0.81818182  0.90909091  0.90909091  0.90909091  0.90909091]",0.984615384615,0.0194601702164,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.1, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.986,0.021176506899,"[ 0.96666667  1.          0.96666667  1.          0.96666667  1.          1.
+  0.96666667  1.          1.          1.          0.93333333  0.96666667
+  0.96666667  0.93333333  1.          1.          1.          1.          1.
+  1.          0.96666667  1.          1.          1.          1.          1.
+  0.93333333  0.96666667  0.93333333  1.          1.          0.96666667
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  0.96666667  0.96666667  1.        ]"
+69,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,clustering_coefficient,l1_l2_linf,standard,SGD,0.961538461538,0.0486504255411,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.8, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'log'}",0.947272727273,0.0632194132753,"[ 0.90909091  0.90909091  1.          1.          0.90909091  1.
+  0.90909091  0.90909091  0.90909091  0.90909091  1.          1.          1.
+  0.72727273  0.81818182  0.90909091  0.90909091  1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  0.90909091  1.          0.90909091  0.81818182  1.          1.
+  0.90909091  1.          1.          1.          0.90909091  1.          1.
+  1.          1.          0.90909091  0.90909091  0.81818182  0.90909091
+  1.          0.90909091  0.90909091  0.90909091]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0.2, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'modified_huber'}",0.995333333333,0.0176509363932,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.
+  0.93333333  1.          1.          0.96666667  1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          0.9         1.          1.          1.
+  1.          1.        ]"
+70,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,triangles,l1_l2_linf,standard,LR,0.980769230769,0.0394113490998,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.65, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l1'}",0.987272727273,0.0315442755871,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.90909091
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  1.          0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          0.90909091
+  1.          1.          1.          1.        ]",1.0,0.0,"{'random_state': 0, 'n_jobs': -1, 'fit_intercept': True, 'C': 0.05, 'solver': 'liblinear', 'max_iter': 50, 'penalty': 'l2'}",0.998,0.00791622805803,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"
+71,IPCAS_1_proba_csd_con_aparc150+subcort,no_norm,triangles,l1_l2_linf,standard,SGD,1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.1, 'l1_ratio': 0.8, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.978181818182,0.0428720949911,"[ 1.          0.90909091  1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  1.          1.          0.90909091  1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          0.90909091  1.          1.          1.          0.90909091
+  0.90909091  0.90909091  1.          1.          1.          1.          1.
+  1.          1.          1.          1.          0.90909091  0.81818182
+  1.          0.90909091  1.          1.        ]",1.0,0.0,"{'eta0': 0.0, 'n_jobs': -1, 'learning_rate': 'optimal', 'epsilon': 0.1, 'verbose': 0, 'random_state': 0, 'class_weight': None, 'penalty': 'elasticnet', 'alpha': 0.001, 'l1_ratio': 0, 'n_iter': 50, 'power_t': 0.5, 'shuffle': True, 'fit_intercept': True, 'loss': 'hinge'}",0.998666666667,0.00653197264742,"[ 1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          0.96666667  0.96666667  1.          1.          1.
+  1.        ]"

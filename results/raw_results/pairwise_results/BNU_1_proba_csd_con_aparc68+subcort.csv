@@ -1,0 +1,629 @@
+,Dataset,Normalizer,Featurizer,Pairwise_features,Scaler,Classifier,grid_accuracy_mean,grid_accuracy_std,grid_accuracy_best_params,eval_accuracy_mean,eval_accuracy_std,eval_accuracy_scores,grid_roc_auc_mean,grid_roc_auc_std,grid_roc_auc_best_params,eval_roc_auc_mean,eval_roc_auc_std,eval_roc_auc_scores
+0,BNU_1_proba_csd_con_aparc68+subcort,binar,bag_of_edges,l1_l2_linf,standard,LR,0.877551020408,0.0286805496379,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.884,0.0695988505652,"[ 0.85  0.85  0.9   0.9   1.    0.8   0.9   0.9   0.85  0.85  0.9   0.95
+  0.7   0.85  0.95  0.8   0.7   0.95  0.9   0.85  0.8   0.95  0.85  0.9
+  0.95  0.95  0.95  0.95  0.9   0.95  0.85  0.95  0.8   0.95  1.    0.95
+  1.    0.8   0.95  0.9   0.8   0.95  0.85  0.85  0.8   0.9   0.85  0.9
+  0.8   0.85]",0.938321995465,0.0186544672791,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.933,0.0574543296889,"[ 0.935  0.895  0.94   1.     1.     0.95   0.94   0.92   0.875  0.865
+  0.93   0.965  0.755  0.92   0.995  0.92   0.845  0.98   0.96   0.96   0.93
+  0.99   0.88   0.92   1.     0.94   0.99   0.965  0.96   0.99   0.91   0.95
+  0.715  0.965  1.     0.99   1.     0.88   0.955  0.93   0.9    0.99
+  0.925  0.925  0.895  0.97   0.89   0.89   0.89   0.965]"
+1,BNU_1_proba_csd_con_aparc68+subcort,binar,bag_of_edges,l1_l2_linf,standard,SGD,0.887755102041,0.0410706363214,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.882,0.0614491659829,"[ 0.85  0.85  0.9   0.9   0.9   0.8   0.95  0.9   0.9   0.85  0.9   0.95
+  0.7   0.85  0.95  0.8   0.7   0.9   0.95  0.9   0.85  0.95  0.85  0.85
+  0.95  0.9   0.95  0.9   0.9   0.95  0.85  0.95  0.8   0.95  0.95  0.9   1.
+  0.8   0.95  0.9   0.85  0.9   0.85  0.85  0.8   0.9   0.85  0.9   0.85
+  0.85]",0.938321995465,0.0186544672791,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.933,0.0574543296889,"[ 0.935  0.895  0.94   1.     1.     0.95   0.94   0.92   0.875  0.865
+  0.93   0.965  0.755  0.92   0.995  0.92   0.845  0.98   0.96   0.96   0.93
+  0.99   0.88   0.92   1.     0.94   0.99   0.965  0.96   0.99   0.91   0.95
+  0.715  0.965  1.     0.99   1.     0.88   0.955  0.93   0.9    0.99
+  0.925  0.925  0.895  0.97   0.89   0.89   0.89   0.965]"
+2,BNU_1_proba_csd_con_aparc68+subcort,binar,degrees,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.937,0.0527351874937,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    1.    0.9   0.85  0.95  0.95
+  0.9   0.95  0.95  0.95  0.9   0.9   1.    0.95  0.95  0.95  0.9   0.85
+  1.    0.8   0.95  0.95  0.9   1.    0.85  1.    0.8   0.95  1.    1.    1.
+  0.95  1.    0.95  0.95  1.    0.95  0.95  0.85  0.95  0.9   0.9   0.9
+  0.9 ]",0.99387755102,0.00803470191226,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.2, 'max_iter': 50}",0.9852,0.0205416649763,"[ 1.     1.     1.     1.     0.99   1.     1.     1.     0.95   0.99   1.
+  0.96   0.98   0.97   1.     0.98   0.94   0.98   1.     0.99   1.     0.99
+  0.97   0.99   1.     0.93   1.     0.99   0.97   1.     0.95   1.     0.905
+  0.99   1.     1.     1.     0.98   1.     0.99   0.99   1.     1.     0.98
+  0.98   1.     0.995  0.97   0.97   0.99 ]"
+3,BNU_1_proba_csd_con_aparc68+subcort,binar,degrees,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.938,0.0505568986391,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.85  0.9   0.95  0.95
+  0.9   0.95  1.    0.9   0.85  0.9   0.95  0.95  0.95  0.9   0.9   0.9   1.
+  0.85  1.    0.95  0.9   1.    0.85  1.    0.85  0.95  1.    1.    1.    0.9
+  1.    0.95  0.9   1.    1.    0.9   0.9   0.95  0.95  0.95  0.85  0.9 ]",0.995918367347,0.00806057863597,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.986,0.019287301522,"[ 1.    1.    1.    1.    0.99  1.    1.    1.    0.96  0.99  1.    0.95
+  0.98  0.98  1.    0.98  0.95  0.98  1.    0.99  1.    0.99  0.97  0.99
+  1.    0.93  1.    0.99  0.96  1.    0.95  1.    0.92  0.99  1.    1.    1.
+  0.98  1.    0.99  1.    1.    1.    0.99  0.98  1.    0.99  0.96  0.98
+  0.99]"
+4,BNU_1_proba_csd_con_aparc68+subcort,binar,closeness_centrality,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.944,0.0475815090135,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    1.    0.9   0.9   0.95  0.9
+  0.9   0.95  1.    0.95  0.9   0.95  1.    0.95  0.95  0.95  0.9   0.9   1.
+  0.85  0.95  0.95  0.9   1.    0.85  0.95  0.8   0.95  1.    1.    1.
+  0.95  1.    0.95  0.95  1.    0.95  0.95  0.85  1.    0.95  0.95  0.9
+  0.95]",0.995918367347,0.00491493656277,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.985,0.0229128784748,"[ 1.    1.    1.    1.    0.99  1.    1.    1.    0.96  1.    0.98  0.97
+  1.    0.99  1.    0.98  0.94  0.99  1.    0.98  0.98  0.99  0.96  1.    1.
+  0.93  1.    1.    0.97  1.    0.95  1.    0.88  0.99  1.    1.    1.
+  0.96  1.    0.99  0.99  1.    1.    0.98  0.96  1.    0.99  0.99  0.97
+  0.99]"
+5,BNU_1_proba_csd_con_aparc68+subcort,binar,closeness_centrality,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.952,0.0435430821142,"[ 0.9   0.9   1.    1.    0.95  1.    1.    1.    0.9   0.9   0.95  0.95
+  0.9   0.95  1.    0.95  0.9   0.95  1.    0.95  0.95  0.95  0.9   0.95
+  1.    0.9   1.    0.95  0.9   1.    0.85  1.    0.85  0.95  1.    1.    1.
+  0.9   1.    0.95  0.95  1.    1.    0.95  0.9   1.    0.95  0.95  0.9
+  0.95]",0.997959183673,0.00403028931799,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9856,0.0212753378352,"[ 1.    1.    1.    1.    0.99  1.    1.    1.    0.95  1.    0.98  0.97
+  1.    0.99  1.    0.99  0.94  0.99  1.    0.98  0.99  0.99  0.96  1.    1.
+  0.94  1.    0.99  0.97  1.    0.96  1.    0.89  0.99  1.    1.    1.
+  0.96  1.    0.99  0.99  1.    1.    0.98  0.97  1.    0.99  0.98  0.97
+  0.99]"
+6,BNU_1_proba_csd_con_aparc68+subcort,binar,betweenness_centrality,l1_l2_linf,standard,LR,0.765306122449,0.044139124347,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.73,0.0943398113206,"[ 0.7   0.7   0.5   0.8   0.65  0.7   0.5   0.8   0.65  0.6   0.8   0.85
+  0.65  0.75  0.8   0.8   0.7   0.65  0.75  0.9   0.75  0.75  0.65  0.7
+  0.7   0.6   0.8   0.8   0.75  0.75  0.75  0.85  0.65  0.85  0.9   0.75
+  0.5   0.75  0.8   0.85  0.6   0.85  0.8   0.75  0.8   0.75  0.65  0.75
+  0.7   0.7 ]",0.83514739229,0.0694766514339,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.9500000000000001, 'max_iter': 50}",0.8322,0.0908248864574,"[ 0.81  0.72  0.96  0.87  0.74  0.75  1.    0.91  0.75  0.69  0.86  0.92
+  0.72  0.93  0.91  0.84  0.73  0.69  0.85  0.9   0.78  0.78  0.76  0.82
+  0.87  0.58  0.93  0.85  0.82  0.87  0.76  0.9   0.66  0.94  0.96  0.88
+  0.96  0.85  0.92  0.89  0.75  0.93  0.91  0.86  0.87  0.88  0.72  0.75
+  0.82  0.79]"
+7,BNU_1_proba_csd_con_aparc68+subcort,binar,betweenness_centrality,l1_l2_linf,standard,SGD,0.765306122449,0.044139124347,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.755,0.0820060973343,"[ 0.7   0.7   0.85  0.85  0.65  0.75  1.    0.8   0.7   0.6   0.8   0.85
+  0.65  0.75  0.8   0.8   0.7   0.65  0.75  0.85  0.75  0.7   0.65  0.65
+  0.7   0.6   0.8   0.8   0.75  0.75  0.75  0.85  0.65  0.85  0.9   0.8
+  0.85  0.75  0.8   0.8   0.65  0.85  0.8   0.75  0.8   0.75  0.65  0.75
+  0.7   0.7 ]",0.849206349206,0.073295034167,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 1.0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.8258,0.0938741711015,"[ 0.81  0.74  0.61  0.9   0.72  0.78  1.    0.91  0.73  0.71  0.88  0.91
+  0.75  0.96  0.93  0.85  0.75  0.77  0.87  0.78  0.79  0.8   0.77  0.84
+  0.9   0.61  0.96  0.86  0.76  0.86  0.76  0.89  0.59  0.7   0.98  0.87
+  0.97  0.85  0.92  0.9   0.79  0.94  0.85  0.85  0.81  0.89  0.75  0.84
+  0.82  0.81]"
+8,BNU_1_proba_csd_con_aparc68+subcort,binar,eigenvector_centrality,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.942,0.0541848687366,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    1.    0.9   0.9   0.95  0.9
+  0.85  0.9   1.    0.95  0.9   0.95  1.    0.9   0.95  0.95  0.9   0.95
+  1.    0.85  1.    0.95  0.9   1.    0.85  1.    0.75  0.95  1.    1.    1.
+  0.95  1.    0.95  0.95  1.    0.9   0.95  0.85  1.    0.95  0.95  0.9
+  0.95]",0.995918367347,0.00491493656277,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.25, 'max_iter': 50}",0.985,0.0174642491966,"[ 1.    0.99  1.    1.    1.    0.98  1.    1.    0.95  0.99  0.99  0.98
+  0.97  0.96  1.    0.98  0.96  0.97  0.99  0.99  0.99  0.99  0.98  0.99
+  1.    0.93  1.    0.99  0.98  1.    0.96  1.    0.94  1.    1.    1.    1.
+  0.97  1.    1.    1.    1.    1.    0.98  0.96  0.99  0.99  0.96  0.97
+  0.98]"
+9,BNU_1_proba_csd_con_aparc68+subcort,binar,eigenvector_centrality,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.938,0.0495580467735,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.85  0.9   0.95  0.95
+  0.9   0.95  1.    0.9   0.85  0.9   0.95  0.95  0.95  0.9   0.9   0.95
+  1.    0.85  1.    0.95  0.9   0.95  0.85  1.    0.85  0.95  1.    1.    1.
+  0.9   1.    0.95  0.9   1.    1.    0.9   0.9   0.95  0.95  0.95  0.85
+  0.9 ]",0.997959183673,0.00403028931799,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9844,0.0190955492196,"[ 1.    0.99  1.    1.    0.99  0.99  1.    1.    0.96  0.99  1.    0.97
+  0.95  0.96  1.    0.98  0.94  0.98  1.    1.    0.99  0.99  0.98  0.99
+  1.    0.95  1.    0.99  0.96  1.    0.96  1.    0.92  0.99  1.    1.    1.
+  0.98  1.    0.99  0.99  1.    1.    0.98  0.96  1.    0.99  0.96  0.96
+  0.99]"
+10,BNU_1_proba_csd_con_aparc68+subcort,binar,pagerank,l1_l2_linf,standard,LR,0.959183673469,0.0402741771853,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.954,0.0422374241639,"[ 0.9   0.9   1.    1.    1.    0.95  1.    1.    0.9   0.85  0.95  0.95
+  0.9   0.9   1.    0.95  0.9   0.9   1.    0.95  0.95  0.95  0.95  0.95
+  1.    0.9   1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.
+  0.95  1.    1.    1.    1.    1.    0.95  0.9   0.9   0.95  0.95  0.95
+  0.9 ]",1.0,0.0,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.989,0.0164012194669,"[ 1.    0.98  1.    1.    1.    1.    1.    1.    0.95  1.    1.    1.
+  0.99  0.99  1.    0.98  0.95  0.97  1.    0.98  0.99  0.99  1.    1.    1.
+  0.94  1.    0.99  1.    1.    0.95  1.    0.95  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.98  0.99  0.99  0.97  0.98  0.97
+  0.99]"
+11,BNU_1_proba_csd_con_aparc68+subcort,binar,pagerank,l1_l2_linf,standard,SGD,0.959183673469,0.0402741771853,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.951,0.0441474801093,"[ 0.9   0.9   1.    1.    1.    0.9   1.    1.    0.9   0.9   0.95  1.    0.9
+  0.95  1.    0.9   0.9   0.9   0.95  0.95  0.95  0.9   0.95  0.95  1.
+  0.85  1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.    0.9
+  1.    1.    0.95  1.    1.    0.9   0.9   1.    0.95  0.95  0.95  0.9 ]",1.0,0.0,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9908,0.0136879509058,"[ 1.    1.    1.    1.    1.    0.99  1.    1.    0.95  1.    1.    1.
+  0.99  0.99  1.    0.98  0.96  0.98  1.    0.99  0.99  0.99  1.    1.    1.
+  0.96  1.    0.99  1.    1.    0.96  1.    0.95  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.98  0.99  0.99  0.99  0.98  0.98
+  0.98]"
+12,BNU_1_proba_csd_con_aparc68+subcort,binar,efficiency,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.936,0.0557135531087,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    1.    0.9   0.85  0.95  0.95
+  0.9   0.95  0.95  0.95  0.9   0.9   1.    0.95  0.95  0.95  0.9   0.85
+  1.    0.8   0.95  0.95  0.9   1.    0.85  1.    0.75  0.95  1.    1.    1.
+  0.95  1.    0.95  0.95  1.    0.95  0.95  0.85  0.95  0.9   0.9   0.9
+  0.9 ]",0.99387755102,0.00803470191226,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.985,0.021,"[ 1.    1.    1.    1.    0.99  1.    1.    1.    0.95  0.99  1.    0.96
+  0.98  0.98  1.    0.98  0.94  0.98  1.    0.99  1.    0.99  0.97  0.99
+  1.    0.93  1.    0.99  0.96  1.    0.95  1.    0.9   0.99  1.    1.    1.
+  0.98  1.    0.99  0.98  1.    1.    0.98  0.99  1.    0.99  0.97  0.97
+  0.99]"
+13,BNU_1_proba_csd_con_aparc68+subcort,binar,efficiency,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 1.0, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.945,0.0471699056603,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.9   0.9   0.95  0.95
+  0.9   0.95  1.    0.95  0.85  0.95  0.95  0.95  0.95  0.9   0.9   0.95
+  1.    0.85  1.    0.95  0.9   1.    0.85  1.    0.85  0.95  1.    1.    1.
+  0.9   1.    0.95  0.9   1.    1.    0.9   0.9   1.    0.95  0.95  0.9
+  0.95]",0.995918367347,0.00806057863597,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9856,0.0193038856192,"[ 1.    1.    1.    1.    0.99  0.99  1.    1.    0.96  0.99  1.    0.95
+  0.98  0.98  1.    0.98  0.95  0.98  1.    0.99  1.    0.99  0.97  0.99
+  1.    0.93  1.    0.99  0.96  1.    0.95  1.    0.92  0.99  1.    1.    1.
+  0.97  1.    0.99  1.    1.    1.    0.99  0.98  1.    0.99  0.96  0.98
+  0.99]"
+14,BNU_1_proba_csd_con_aparc68+subcort,binar,clustering_coefficient,l1_l2_linf,standard,LR,0.785714285714,0.0451753951453,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.79,0.0848528137424,"[ 0.85  0.9   0.85  0.9   0.7   0.8   0.85  0.8   0.75  0.75  0.8   0.75
+  0.65  0.75  0.7   0.9   0.8   0.75  0.85  0.85  0.8   0.8   0.65  0.75
+  0.8   0.7   0.7   0.8   0.7   0.8   0.75  0.85  0.55  0.85  0.9   0.95
+  0.9   0.75  0.9   0.85  0.65  0.9   0.65  0.9   0.75  0.85  0.7   0.8
+  0.75  0.85]",0.880725623583,0.066217854301,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.877,0.0869079973305,"[ 0.96  0.88  1.    0.99  0.76  0.87  0.94  0.93  0.81  0.84  0.96  0.89
+  0.78  0.9   0.84  0.95  0.8   0.86  0.88  0.9   0.91  0.92  0.73  0.85
+  0.86  0.6   0.9   0.92  0.84  0.91  0.78  0.97  0.59  0.92  0.97  0.98
+  0.97  0.91  0.95  0.9   0.79  0.98  0.84  0.94  0.92  0.91  0.81  0.81
+  0.81  0.92]"
+15,BNU_1_proba_csd_con_aparc68+subcort,binar,clustering_coefficient,l1_l2_linf,standard,SGD,0.836734693878,0.0806703484737,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'modified_huber', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 1.0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.77,0.0964365076099,"[ 0.85  0.7   0.65  0.9   0.8   0.75  1.    0.85  0.8   0.8   0.8   0.85
+  0.65  0.75  0.7   0.85  0.85  0.6   0.75  0.75  0.75  0.85  0.65  0.8
+  0.85  0.6   0.7   0.75  0.65  0.8   0.8   0.95  0.55  0.75  0.8   0.85
+  0.55  0.75  0.8   0.9   0.75  0.9   0.65  0.75  0.7   0.8   0.8   0.7
+  0.85  0.85]",0.888888888889,0.0617780097913,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.5, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.871,0.086469647854,"[ 0.95  0.8   1.    0.97  0.77  0.89  0.94  0.93  0.81  0.83  0.94  0.89
+  0.72  0.93  0.77  0.94  0.81  0.86  0.88  0.9   0.86  0.91  0.74  0.85
+  0.88  0.61  0.9   0.92  0.83  0.91  0.78  0.94  0.59  0.92  0.99  0.97
+  0.98  0.9   0.94  0.91  0.8   0.97  0.85  0.89  0.9   0.91  0.81  0.81
+  0.83  0.92]"
+16,BNU_1_proba_csd_con_aparc68+subcort,binar,triangles,l1_l2_linf,standard,LR,0.938775510204,0.0397537424046,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.929,0.0575239080731,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    0.95  0.9   0.85  0.95  0.85
+  0.85  0.9   1.    0.9   0.9   0.9   1.    0.9   0.95  0.95  0.9   0.9   1.
+  0.85  0.95  0.95  0.85  1.    0.85  0.95  0.75  0.95  1.    0.95  1.    0.9
+  1.    0.95  0.95  1.    0.85  0.95  0.85  1.    0.95  0.95  0.85  0.95]",0.991609977324,0.0118859465705,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.45, 'max_iter': 50}",0.975,0.03061045573,"[ 0.99  0.98  1.    1.    0.95  1.    1.    1.    0.98  0.98  0.98  0.94
+  0.96  0.96  1.    1.    0.95  1.    1.    0.97  0.99  1.    0.92  0.99
+  1.    0.91  0.98  1.    0.95  1.    0.94  1.    0.86  0.95  1.    1.    1.
+  0.94  1.    0.98  0.94  1.    0.98  0.98  0.94  1.    0.98  0.96  0.92
+  1.  ]"
+17,BNU_1_proba_csd_con_aparc68+subcort,binar,triangles,l1_l2_linf,standard,SGD,0.938775510204,0.0236633022189,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.933,0.0544150714417,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.9   0.9   0.9   0.95
+  0.9   0.9   1.    0.95  0.9   1.    1.    0.95  0.9   0.95  0.9   0.9   1.
+  0.9   0.9   0.95  0.85  1.    0.85  0.95  0.8   0.95  1.    0.95  1.    0.8
+  1.    0.95  0.95  0.9   0.9   0.95  0.8   1.    0.9   0.95  0.9   0.95]",0.989569160998,0.0156755525243,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.6, 'alpha': 0.5, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9732,0.0339670428504,"[ 0.99  0.98  1.    1.    0.94  1.    1.    1.    0.98  0.98  0.98  0.94
+  0.96  0.96  1.    1.    0.93  1.    1.    0.98  0.99  1.    0.92  0.99
+  1.    0.9   0.98  1.    0.95  1.    0.92  1.    0.84  0.95  1.    1.    1.
+  0.95  1.    0.96  0.94  1.    0.98  0.98  0.94  1.    0.98  0.96  0.91
+  1.  ]"
+18,BNU_1_proba_csd_con_aparc68+subcort,max,bag_of_edges,l1_l2_linf,standard,LR,0.877551020408,0.0286805496379,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.884,0.0695988505652,"[ 0.85  0.85  0.9   0.9   1.    0.8   0.9   0.9   0.85  0.85  0.9   0.95
+  0.7   0.85  0.95  0.8   0.7   0.95  0.9   0.85  0.8   0.95  0.85  0.9
+  0.95  0.95  0.95  0.95  0.9   0.95  0.85  0.95  0.8   0.95  1.    0.95
+  1.    0.8   0.95  0.9   0.8   0.95  0.85  0.85  0.8   0.9   0.85  0.9
+  0.8   0.85]",0.938321995465,0.0186544672791,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.933,0.0574543296889,"[ 0.935  0.895  0.94   1.     1.     0.95   0.94   0.92   0.875  0.865
+  0.93   0.965  0.755  0.92   0.995  0.92   0.845  0.98   0.96   0.96   0.93
+  0.99   0.88   0.92   1.     0.94   0.99   0.965  0.96   0.99   0.91   0.95
+  0.715  0.965  1.     0.99   1.     0.88   0.955  0.93   0.9    0.99
+  0.925  0.925  0.895  0.97   0.89   0.89   0.89   0.965]"
+19,BNU_1_proba_csd_con_aparc68+subcort,max,bag_of_edges,l1_l2_linf,standard,SGD,0.887755102041,0.0410706363214,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.882,0.0614491659829,"[ 0.85  0.85  0.9   0.9   0.9   0.8   0.95  0.9   0.9   0.85  0.9   0.95
+  0.7   0.85  0.95  0.8   0.7   0.9   0.95  0.9   0.85  0.95  0.85  0.85
+  0.95  0.9   0.95  0.9   0.9   0.95  0.85  0.95  0.8   0.95  0.95  0.9   1.
+  0.8   0.95  0.9   0.85  0.9   0.85  0.85  0.8   0.9   0.85  0.9   0.85
+  0.85]",0.938321995465,0.0186544672791,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.933,0.0574543296889,"[ 0.935  0.895  0.94   1.     1.     0.95   0.94   0.92   0.875  0.865
+  0.93   0.965  0.755  0.92   0.995  0.92   0.845  0.98   0.96   0.96   0.93
+  0.99   0.88   0.92   1.     0.94   0.99   0.965  0.96   0.99   0.91   0.95
+  0.715  0.965  1.     0.99   1.     0.88   0.955  0.93   0.9    0.99
+  0.925  0.925  0.895  0.97   0.89   0.89   0.89   0.965]"
+20,BNU_1_proba_csd_con_aparc68+subcort,max,degrees,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.937,0.0527351874937,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    1.    0.9   0.85  0.95  0.95
+  0.9   0.95  0.95  0.95  0.9   0.9   1.    0.95  0.95  0.95  0.9   0.85
+  1.    0.8   0.95  0.95  0.9   1.    0.85  1.    0.8   0.95  1.    1.    1.
+  0.95  1.    0.95  0.95  1.    0.95  0.95  0.85  0.95  0.9   0.9   0.9
+  0.9 ]",0.99387755102,0.00803470191226,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.2, 'max_iter': 50}",0.9852,0.0205416649763,"[ 1.     1.     1.     1.     0.99   1.     1.     1.     0.95   0.99   1.
+  0.96   0.98   0.97   1.     0.98   0.94   0.98   1.     0.99   1.     0.99
+  0.97   0.99   1.     0.93   1.     0.99   0.97   1.     0.95   1.     0.905
+  0.99   1.     1.     1.     0.98   1.     0.99   0.99   1.     1.     0.98
+  0.98   1.     0.995  0.97   0.97   0.99 ]"
+21,BNU_1_proba_csd_con_aparc68+subcort,max,degrees,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.938,0.0505568986391,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.85  0.9   0.95  0.95
+  0.9   0.95  1.    0.9   0.85  0.9   0.95  0.95  0.95  0.9   0.9   0.9   1.
+  0.85  1.    0.95  0.9   1.    0.85  1.    0.85  0.95  1.    1.    1.    0.9
+  1.    0.95  0.9   1.    1.    0.9   0.9   0.95  0.95  0.95  0.85  0.9 ]",0.995918367347,0.00806057863597,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.986,0.019287301522,"[ 1.    1.    1.    1.    0.99  1.    1.    1.    0.96  0.99  1.    0.95
+  0.98  0.98  1.    0.98  0.95  0.98  1.    0.99  1.    0.99  0.97  0.99
+  1.    0.93  1.    0.99  0.96  1.    0.95  1.    0.92  0.99  1.    1.    1.
+  0.98  1.    0.99  1.    1.    1.    0.99  0.98  1.    0.99  0.96  0.98
+  0.99]"
+22,BNU_1_proba_csd_con_aparc68+subcort,max,closeness_centrality,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.944,0.0475815090135,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    1.    0.9   0.9   0.95  0.9
+  0.9   0.95  1.    0.95  0.9   0.95  1.    0.95  0.95  0.95  0.9   0.9   1.
+  0.85  0.95  0.95  0.9   1.    0.85  0.95  0.8   0.95  1.    1.    1.
+  0.95  1.    0.95  0.95  1.    0.95  0.95  0.85  1.    0.95  0.95  0.9
+  0.95]",0.995918367347,0.00491493656277,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.985,0.0229128784748,"[ 1.    1.    1.    1.    0.99  1.    1.    1.    0.96  1.    0.98  0.97
+  1.    0.99  1.    0.98  0.94  0.99  1.    0.98  0.98  0.99  0.96  1.    1.
+  0.93  1.    1.    0.97  1.    0.95  1.    0.88  0.99  1.    1.    1.
+  0.96  1.    0.99  0.99  1.    1.    0.98  0.96  1.    0.99  0.99  0.97
+  0.99]"
+23,BNU_1_proba_csd_con_aparc68+subcort,max,closeness_centrality,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.952,0.0435430821142,"[ 0.9   0.9   1.    1.    0.95  1.    1.    1.    0.9   0.9   0.95  0.95
+  0.9   0.95  1.    0.95  0.9   0.95  1.    0.95  0.95  0.95  0.9   0.95
+  1.    0.9   1.    0.95  0.9   1.    0.85  1.    0.85  0.95  1.    1.    1.
+  0.9   1.    0.95  0.95  1.    1.    0.95  0.9   1.    0.95  0.95  0.9
+  0.95]",0.997959183673,0.00403028931799,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9856,0.0212753378352,"[ 1.    1.    1.    1.    0.99  1.    1.    1.    0.95  1.    0.98  0.97
+  1.    0.99  1.    0.99  0.94  0.99  1.    0.98  0.99  0.99  0.96  1.    1.
+  0.94  1.    0.99  0.97  1.    0.96  1.    0.89  0.99  1.    1.    1.
+  0.96  1.    0.99  0.99  1.    1.    0.98  0.97  1.    0.99  0.98  0.97
+  0.99]"
+24,BNU_1_proba_csd_con_aparc68+subcort,max,betweenness_centrality,l1_l2_linf,standard,LR,0.765306122449,0.044139124347,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.73,0.0943398113206,"[ 0.7   0.7   0.5   0.8   0.65  0.7   0.5   0.8   0.65  0.6   0.8   0.85
+  0.65  0.75  0.8   0.8   0.7   0.65  0.75  0.9   0.75  0.75  0.65  0.7
+  0.7   0.6   0.8   0.8   0.75  0.75  0.75  0.85  0.65  0.85  0.9   0.75
+  0.5   0.75  0.8   0.85  0.6   0.85  0.8   0.75  0.8   0.75  0.65  0.75
+  0.7   0.7 ]",0.83514739229,0.0694766514339,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.9500000000000001, 'max_iter': 50}",0.8322,0.0908248864574,"[ 0.81  0.72  0.96  0.87  0.74  0.75  1.    0.91  0.75  0.69  0.86  0.92
+  0.72  0.93  0.91  0.84  0.73  0.69  0.85  0.9   0.78  0.78  0.76  0.82
+  0.87  0.58  0.93  0.85  0.82  0.87  0.76  0.9   0.66  0.94  0.96  0.88
+  0.96  0.85  0.92  0.89  0.75  0.93  0.91  0.86  0.87  0.88  0.72  0.75
+  0.82  0.79]"
+25,BNU_1_proba_csd_con_aparc68+subcort,max,betweenness_centrality,l1_l2_linf,standard,SGD,0.765306122449,0.044139124347,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.755,0.0820060973343,"[ 0.7   0.7   0.85  0.85  0.65  0.75  1.    0.8   0.7   0.6   0.8   0.85
+  0.65  0.75  0.8   0.8   0.7   0.65  0.75  0.85  0.75  0.7   0.65  0.65
+  0.7   0.6   0.8   0.8   0.75  0.75  0.75  0.85  0.65  0.85  0.9   0.8
+  0.85  0.75  0.8   0.8   0.65  0.85  0.8   0.75  0.8   0.75  0.65  0.75
+  0.7   0.7 ]",0.849206349206,0.073295034167,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 1.0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.8258,0.0938741711015,"[ 0.81  0.74  0.61  0.9   0.72  0.78  1.    0.91  0.73  0.71  0.88  0.91
+  0.75  0.96  0.93  0.85  0.75  0.77  0.87  0.78  0.79  0.8   0.77  0.84
+  0.9   0.61  0.96  0.86  0.76  0.86  0.76  0.89  0.59  0.7   0.98  0.87
+  0.97  0.85  0.92  0.9   0.79  0.94  0.85  0.85  0.81  0.89  0.75  0.84
+  0.82  0.81]"
+26,BNU_1_proba_csd_con_aparc68+subcort,max,eigenvector_centrality,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.942,0.0541848687366,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    1.    0.9   0.9   0.95  0.9
+  0.85  0.9   1.    0.95  0.9   0.95  1.    0.9   0.95  0.95  0.9   0.95
+  1.    0.85  1.    0.95  0.9   1.    0.85  1.    0.75  0.95  1.    1.    1.
+  0.95  1.    0.95  0.95  1.    0.9   0.95  0.85  1.    0.95  0.95  0.9
+  0.95]",0.995918367347,0.00491493656277,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.25, 'max_iter': 50}",0.985,0.0174642491966,"[ 1.    0.99  1.    1.    1.    0.98  1.    1.    0.95  0.99  0.99  0.98
+  0.97  0.96  1.    0.98  0.96  0.97  0.99  0.99  0.99  0.99  0.98  0.99
+  1.    0.93  1.    0.99  0.98  1.    0.96  1.    0.94  1.    1.    1.    1.
+  0.97  1.    1.    1.    1.    1.    0.98  0.96  0.99  0.99  0.96  0.97
+  0.98]"
+27,BNU_1_proba_csd_con_aparc68+subcort,max,eigenvector_centrality,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.938,0.0495580467735,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.85  0.9   0.95  0.95
+  0.9   0.95  1.    0.9   0.85  0.9   0.95  0.95  0.95  0.9   0.9   0.95
+  1.    0.85  1.    0.95  0.9   0.95  0.85  1.    0.85  0.95  1.    1.    1.
+  0.9   1.    0.95  0.9   1.    1.    0.9   0.9   0.95  0.95  0.95  0.85
+  0.9 ]",0.997959183673,0.00403028931799,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9844,0.0190955492196,"[ 1.    0.99  1.    1.    0.99  0.99  1.    1.    0.96  0.99  1.    0.97
+  0.95  0.96  1.    0.98  0.94  0.98  1.    1.    0.99  0.99  0.98  0.99
+  1.    0.95  1.    0.99  0.96  1.    0.96  1.    0.92  0.99  1.    1.    1.
+  0.98  1.    0.99  0.99  1.    1.    0.98  0.96  1.    0.99  0.96  0.96
+  0.99]"
+28,BNU_1_proba_csd_con_aparc68+subcort,max,pagerank,l1_l2_linf,standard,LR,0.959183673469,0.0402741771853,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.954,0.0422374241639,"[ 0.9   0.9   1.    1.    1.    0.95  1.    1.    0.9   0.85  0.95  0.95
+  0.9   0.9   1.    0.95  0.9   0.9   1.    0.95  0.95  0.95  0.95  0.95
+  1.    0.9   1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.
+  0.95  1.    1.    1.    1.    1.    0.95  0.9   0.9   0.95  0.95  0.95
+  0.9 ]",1.0,0.0,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.989,0.0164012194669,"[ 1.    0.98  1.    1.    1.    1.    1.    1.    0.95  1.    1.    1.
+  0.99  0.99  1.    0.98  0.95  0.97  1.    0.98  0.99  0.99  1.    1.    1.
+  0.94  1.    0.99  1.    1.    0.95  1.    0.95  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.98  0.99  0.99  0.97  0.98  0.97
+  0.99]"
+29,BNU_1_proba_csd_con_aparc68+subcort,max,pagerank,l1_l2_linf,standard,SGD,0.959183673469,0.0402741771853,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.951,0.0441474801093,"[ 0.9   0.9   1.    1.    1.    0.9   1.    1.    0.9   0.9   0.95  1.    0.9
+  0.95  1.    0.9   0.9   0.9   0.95  0.95  0.95  0.9   0.95  0.95  1.
+  0.85  1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.    0.9
+  1.    1.    0.95  1.    1.    0.9   0.9   1.    0.95  0.95  0.95  0.9 ]",1.0,0.0,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9908,0.0136879509058,"[ 1.    1.    1.    1.    1.    0.99  1.    1.    0.95  1.    1.    1.
+  0.99  0.99  1.    0.98  0.96  0.98  1.    0.99  0.99  0.99  1.    1.    1.
+  0.96  1.    0.99  1.    1.    0.96  1.    0.95  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.98  0.99  0.99  0.99  0.98  0.98
+  0.98]"
+30,BNU_1_proba_csd_con_aparc68+subcort,max,efficiency,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.936,0.0557135531087,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    1.    0.9   0.85  0.95  0.95
+  0.9   0.95  0.95  0.95  0.9   0.9   1.    0.95  0.95  0.95  0.9   0.85
+  1.    0.8   0.95  0.95  0.9   1.    0.85  1.    0.75  0.95  1.    1.    1.
+  0.95  1.    0.95  0.95  1.    0.95  0.95  0.85  0.95  0.9   0.9   0.9
+  0.9 ]",0.99387755102,0.00803470191226,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.985,0.021,"[ 1.    1.    1.    1.    0.99  1.    1.    1.    0.95  0.99  1.    0.96
+  0.98  0.98  1.    0.98  0.94  0.98  1.    0.99  1.    0.99  0.97  0.99
+  1.    0.93  1.    0.99  0.96  1.    0.95  1.    0.9   0.99  1.    1.    1.
+  0.98  1.    0.99  0.98  1.    1.    0.98  0.99  1.    0.99  0.97  0.97
+  0.99]"
+31,BNU_1_proba_csd_con_aparc68+subcort,max,efficiency,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 1.0, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.945,0.0471699056603,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.9   0.9   0.95  0.95
+  0.9   0.95  1.    0.95  0.85  0.95  0.95  0.95  0.95  0.9   0.9   0.95
+  1.    0.85  1.    0.95  0.9   1.    0.85  1.    0.85  0.95  1.    1.    1.
+  0.9   1.    0.95  0.9   1.    1.    0.9   0.9   1.    0.95  0.95  0.9
+  0.95]",0.995918367347,0.00806057863597,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9856,0.0193038856192,"[ 1.    1.    1.    1.    0.99  0.99  1.    1.    0.96  0.99  1.    0.95
+  0.98  0.98  1.    0.98  0.95  0.98  1.    0.99  1.    0.99  0.97  0.99
+  1.    0.93  1.    0.99  0.96  1.    0.95  1.    0.92  0.99  1.    1.    1.
+  0.97  1.    0.99  1.    1.    1.    0.99  0.98  1.    0.99  0.96  0.98
+  0.99]"
+32,BNU_1_proba_csd_con_aparc68+subcort,max,clustering_coefficient,l1_l2_linf,standard,LR,0.785714285714,0.0451753951453,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.79,0.0848528137424,"[ 0.85  0.9   0.85  0.9   0.7   0.8   0.85  0.8   0.75  0.75  0.8   0.75
+  0.65  0.75  0.7   0.9   0.8   0.75  0.85  0.85  0.8   0.8   0.65  0.75
+  0.8   0.7   0.7   0.8   0.7   0.8   0.75  0.85  0.55  0.85  0.9   0.95
+  0.9   0.75  0.9   0.85  0.65  0.9   0.65  0.9   0.75  0.85  0.7   0.8
+  0.75  0.85]",0.880725623583,0.066217854301,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.877,0.0869079973305,"[ 0.96  0.88  1.    0.99  0.76  0.87  0.94  0.93  0.81  0.84  0.96  0.89
+  0.78  0.9   0.84  0.95  0.8   0.86  0.88  0.9   0.91  0.92  0.73  0.85
+  0.86  0.6   0.9   0.92  0.84  0.91  0.78  0.97  0.59  0.92  0.97  0.98
+  0.97  0.91  0.95  0.9   0.79  0.98  0.84  0.94  0.92  0.91  0.81  0.81
+  0.81  0.92]"
+33,BNU_1_proba_csd_con_aparc68+subcort,max,clustering_coefficient,l1_l2_linf,standard,SGD,0.836734693878,0.0806703484737,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'modified_huber', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 1.0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.77,0.0964365076099,"[ 0.85  0.7   0.65  0.9   0.8   0.75  1.    0.85  0.8   0.8   0.8   0.85
+  0.65  0.75  0.7   0.85  0.85  0.6   0.75  0.75  0.75  0.85  0.65  0.8
+  0.85  0.6   0.7   0.75  0.65  0.8   0.8   0.95  0.55  0.75  0.8   0.85
+  0.55  0.75  0.8   0.9   0.75  0.9   0.65  0.75  0.7   0.8   0.8   0.7
+  0.85  0.85]",0.888888888889,0.0617780097913,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.5, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.871,0.086469647854,"[ 0.95  0.8   1.    0.97  0.77  0.89  0.94  0.93  0.81  0.83  0.94  0.89
+  0.72  0.93  0.77  0.94  0.81  0.86  0.88  0.9   0.86  0.91  0.74  0.85
+  0.88  0.61  0.9   0.92  0.83  0.91  0.78  0.94  0.59  0.92  0.99  0.97
+  0.98  0.9   0.94  0.91  0.8   0.97  0.85  0.89  0.9   0.91  0.81  0.81
+  0.83  0.92]"
+34,BNU_1_proba_csd_con_aparc68+subcort,max,triangles,l1_l2_linf,standard,LR,0.938775510204,0.0397537424046,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.929,0.0575239080731,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    0.95  0.9   0.85  0.95  0.85
+  0.85  0.9   1.    0.9   0.9   0.9   1.    0.9   0.95  0.95  0.9   0.9   1.
+  0.85  0.95  0.95  0.85  1.    0.85  0.95  0.75  0.95  1.    0.95  1.    0.9
+  1.    0.95  0.95  1.    0.85  0.95  0.85  1.    0.95  0.95  0.85  0.95]",0.991609977324,0.0118859465705,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.45, 'max_iter': 50}",0.975,0.03061045573,"[ 0.99  0.98  1.    1.    0.95  1.    1.    1.    0.98  0.98  0.98  0.94
+  0.96  0.96  1.    1.    0.95  1.    1.    0.97  0.99  1.    0.92  0.99
+  1.    0.91  0.98  1.    0.95  1.    0.94  1.    0.86  0.95  1.    1.    1.
+  0.94  1.    0.98  0.94  1.    0.98  0.98  0.94  1.    0.98  0.96  0.92
+  1.  ]"
+35,BNU_1_proba_csd_con_aparc68+subcort,max,triangles,l1_l2_linf,standard,SGD,0.938775510204,0.0236633022189,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.933,0.0544150714417,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.9   0.9   0.9   0.95
+  0.9   0.9   1.    0.95  0.9   1.    1.    0.95  0.9   0.95  0.9   0.9   1.
+  0.9   0.9   0.95  0.85  1.    0.85  0.95  0.8   0.95  1.    0.95  1.    0.8
+  1.    0.95  0.95  0.9   0.9   0.95  0.8   1.    0.9   0.95  0.9   0.95]",0.989569160998,0.0156755525243,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.6, 'alpha': 0.5, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9732,0.0339670428504,"[ 0.99  0.98  1.    1.    0.94  1.    1.    1.    0.98  0.98  0.98  0.94
+  0.96  0.96  1.    1.    0.93  1.    1.    0.98  0.99  1.    0.92  0.99
+  1.    0.9   0.98  1.    0.95  1.    0.92  1.    0.84  0.95  1.    1.    1.
+  0.95  1.    0.96  0.94  1.    0.98  0.98  0.94  1.    0.98  0.96  0.91
+  1.  ]"
+36,BNU_1_proba_csd_con_aparc68+subcort,mean,bag_of_edges,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.55, 'max_iter': 50}",0.929,0.053,"[ 0.9   0.9   0.95  1.    1.    0.95  0.9   0.95  0.9   0.9   0.95  0.95
+  0.8   0.9   0.95  0.9   0.8   1.    0.95  0.9   0.9   0.95  0.85  0.95
+  1.    0.95  0.9   0.95  0.95  1.    0.9   0.95  0.8   0.95  1.    1.    1.
+  0.85  0.95  0.9   0.95  0.9   0.9   0.9   0.9   1.    0.95  0.95  0.85
+  1.  ]",0.965986394558,0.0250278920512,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.8, 'max_iter': 50}",0.9688,0.041887468293,"[ 0.94  0.97  0.99  1.    1.    1.    0.97  0.98  0.92  0.94  0.94  1.    0.8
+  0.96  1.    0.98  0.88  1.    1.    0.99  0.99  1.    0.91  0.94  1.
+  0.98  0.99  0.96  0.98  1.    0.98  1.    0.84  1.    1.    1.    1.
+  0.92  0.99  0.98  0.97  0.98  0.99  0.94  0.94  1.    0.99  0.94  0.97
+  1.  ]"
+37,BNU_1_proba_csd_con_aparc68+subcort,mean,bag_of_edges,l1_l2_linf,standard,SGD,0.938775510204,0.0397537424046,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.939,0.0482597140481,"[ 0.9   0.9   0.95  1.    1.    1.    0.95  0.95  0.9   0.85  0.95  0.95
+  0.8   0.9   0.95  0.95  0.85  1.    1.    0.9   0.95  0.95  0.9   0.95
+  0.95  0.95  0.9   0.95  0.95  1.    0.95  1.    0.85  0.95  1.    1.    1.
+  0.9   0.9   0.95  0.95  0.9   0.9   0.95  0.9   1.    0.95  0.95  0.85
+  1.  ]",0.974149659864,0.0273447199981,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9712,0.0392754376169,"[ 0.94  0.97  0.98  1.    1.    1.    0.97  1.    0.92  0.94  0.94  1.
+  0.83  0.97  1.    0.99  0.88  1.    1.    1.    1.    1.    0.91  0.94
+  1.    0.98  0.99  0.96  0.98  1.    0.98  1.    0.86  1.    1.    1.    1.
+  0.92  1.    0.97  0.99  0.98  0.98  0.94  0.93  1.    1.    0.94  0.98
+  1.  ]"
+38,BNU_1_proba_csd_con_aparc68+subcort,mean,degrees,l1_l2_linf,standard,LR,0.959183673469,0.0402741771853,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.4, 'max_iter': 50}",0.952,0.0411825205639,"[ 0.9   0.9   1.    1.    1.    0.9   1.    1.    0.9   0.9   0.95  0.95
+  0.9   0.9   1.    0.95  0.9   0.9   0.95  0.95  0.95  0.9   0.95  0.95
+  1.    0.9   1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.
+  0.95  1.    1.    1.    1.    1.    0.95  0.9   0.9   0.95  0.95  0.95
+  0.9 ]",1.0,0.0,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.9882,0.0166961073308,"[ 1.    0.99  1.    1.    1.    1.    1.    1.    0.95  0.99  1.    1.
+  0.99  0.97  1.    0.98  0.95  0.98  1.    0.98  0.99  0.99  1.    0.99
+  1.    0.94  1.    0.99  0.99  1.    0.95  1.    0.94  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.98  0.99  0.99  0.98  0.97  0.97
+  0.99]"
+39,BNU_1_proba_csd_con_aparc68+subcort,mean,degrees,l1_l2_linf,standard,SGD,0.959183673469,0.0402741771853,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.6, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.944,0.0506359556047,"[ 0.9   0.9   1.    1.    1.    0.9   1.    1.    0.85  0.9   0.95  1.    0.9
+  0.95  1.    0.9   0.85  0.85  0.95  0.95  0.95  0.9   0.95  0.95  1.
+  0.85  1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.    0.9
+  1.    1.    0.95  1.    1.    0.9   0.9   0.9   0.95  0.95  0.9   0.85]",1.0,0.0,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9904,0.0139942845476,"[ 1.    0.99  1.    1.    1.    0.99  1.    1.    0.95  0.99  1.    1.
+  0.99  0.98  1.    0.97  0.96  0.98  1.    0.99  1.    0.99  1.    1.    1.
+  0.96  1.    0.99  0.99  1.    0.95  1.    0.96  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.99  0.99  1.    0.99  0.98  0.97
+  0.99]"
+40,BNU_1_proba_csd_con_aparc68+subcort,mean,closeness_centrality,l1_l2_linf,standard,LR,0.959183673469,0.0402741771853,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.964,0.0374699879904,"[ 0.9   0.9   1.    1.    1.    1.    1.    1.    0.9   0.9   0.95  1.    0.9
+  0.95  1.    0.95  0.9   0.95  1.    0.95  0.95  0.95  0.95  0.95  1.
+  0.95  1.    0.95  0.95  1.    0.9   1.    0.9   1.    1.    1.    1.
+  0.95  1.    1.    1.    1.    1.    0.95  0.9   1.    0.95  0.95  0.95
+  0.95]",1.0,0.0,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.9938,0.0116430236623,"[ 1.    1.    1.    1.    1.    1.    1.    1.    0.98  1.    0.99  1.    1.
+  0.99  1.    1.    0.96  0.99  1.    1.    0.99  1.    0.99  1.    1.
+  0.99  1.    0.99  1.    1.    0.98  1.    0.94  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.99  0.98  1.    0.99  0.97  0.99
+  1.  ]"
+41,BNU_1_proba_csd_con_aparc68+subcort,mean,closeness_centrality,l1_l2_linf,standard,SGD,0.959183673469,0.0402741771853,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.963,0.0384837628098,"[ 0.9   0.9   1.    1.    1.    1.    1.    1.    0.9   0.9   0.95  1.    0.9
+  0.95  1.    0.95  0.9   0.95  1.    0.95  0.95  0.95  0.95  0.95  1.
+  0.95  1.    0.95  0.95  1.    0.9   1.    0.9   1.    1.    1.    1.    0.9
+  1.    1.    1.    1.    1.    0.95  0.9   1.    0.95  0.95  0.95  0.95]",1.0,0.0,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9916,0.0139082709206,"[ 1.    1.    1.    1.    1.    1.    1.    1.    0.96  1.    0.99  1.
+  0.99  0.99  1.    0.99  0.97  1.    1.    0.99  0.98  1.    0.99  1.    1.
+  0.97  1.    0.99  1.    1.    0.96  1.    0.94  1.    1.    1.    1.
+  0.96  1.    1.    1.    1.    1.    0.99  0.97  1.    0.99  0.98  0.98
+  1.  ]"
+42,BNU_1_proba_csd_con_aparc68+subcort,mean,betweenness_centrality,l1_l2_linf,standard,LR,0.602040816327,0.0622365333958,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.601,0.0924608025057,"[ 0.45  0.5   0.7   0.6   0.55  0.8   0.55  0.5   0.6   0.75  0.5   0.5
+  0.55  0.6   0.75  0.8   0.75  0.6   0.65  0.6   0.45  0.7   0.45  0.65
+  0.5   0.65  0.55  0.65  0.6   0.7   0.7   0.65  0.6   0.7   0.5   0.6
+  0.6   0.6   0.65  0.45  0.45  0.65  0.6   0.7   0.6   0.65  0.55  0.55
+  0.5   0.55]",0.599319727891,0.0788797274635,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.6008,0.130902100823,"[ 0.56  0.49  0.73  0.51  0.52  0.77  0.54  0.39  0.58  0.73  0.48  0.43
+  0.4   0.5   0.9   0.9   0.81  0.53  0.64  0.62  0.48  0.75  0.45  0.7
+  0.59  0.78  0.67  0.69  0.6   0.76  0.68  0.69  0.73  0.69  0.53  0.62
+  0.51  0.59  0.6   0.39  0.34  0.59  0.51  0.8   0.51  0.59  0.55  0.61
+  0.43  0.58]"
+43,BNU_1_proba_csd_con_aparc68+subcort,mean,betweenness_centrality,l1_l2_linf,standard,SGD,0.612244897959,0.0572197409567,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.6, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.563,0.078619336044,"[ 0.5   0.5   0.7   0.6   0.5   0.65  0.55  0.45  0.55  0.65  0.5   0.5
+  0.6   0.5   0.5   0.5   0.5   0.5   0.7   0.6   0.45  0.7   0.4   0.6
+  0.55  0.55  0.6   0.65  0.45  0.7   0.65  0.6   0.6   0.6   0.6   0.55
+  0.6   0.6   0.5   0.5   0.35  0.65  0.6   0.65  0.55  0.65  0.55  0.6
+  0.5   0.55]",0.599319727891,0.0788797274635,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.5, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.6008,0.131663814315,"[ 0.56  0.49  0.73  0.51  0.52  0.77  0.54  0.39  0.58  0.74  0.48  0.43
+  0.4   0.5   0.91  0.9   0.81  0.53  0.64  0.62  0.48  0.75  0.44  0.69
+  0.59  0.78  0.67  0.69  0.6   0.76  0.68  0.69  0.73  0.69  0.53  0.62
+  0.51  0.59  0.6   0.39  0.34  0.59  0.51  0.8   0.51  0.59  0.55  0.61
+  0.43  0.58]"
+44,BNU_1_proba_csd_con_aparc68+subcort,mean,eigenvector_centrality,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.942,0.0541848687366,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    1.    0.9   0.9   0.95  0.9
+  0.85  0.9   1.    0.95  0.9   0.95  1.    0.9   0.95  0.95  0.9   0.95
+  1.    0.85  1.    0.95  0.9   1.    0.85  1.    0.75  0.95  1.    1.    1.
+  0.95  1.    0.95  0.95  1.    0.9   0.95  0.85  1.    0.95  0.95  0.9
+  0.95]",0.995918367347,0.00491493656277,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.25, 'max_iter': 50}",0.985,0.0174642491966,"[ 1.    0.99  1.    1.    1.    0.98  1.    1.    0.95  0.99  0.99  0.98
+  0.97  0.96  1.    0.98  0.96  0.97  0.99  0.99  0.99  0.99  0.98  0.99
+  1.    0.93  1.    0.99  0.98  1.    0.96  1.    0.94  1.    1.    1.    1.
+  0.97  1.    1.    1.    1.    1.    0.98  0.96  0.99  0.99  0.96  0.97
+  0.98]"
+45,BNU_1_proba_csd_con_aparc68+subcort,mean,eigenvector_centrality,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.938,0.0495580467735,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.85  0.9   0.95  0.95
+  0.9   0.95  1.    0.9   0.85  0.9   0.95  0.95  0.95  0.9   0.9   0.95
+  1.    0.85  1.    0.95  0.9   0.95  0.85  1.    0.85  0.95  1.    1.    1.
+  0.9   1.    0.95  0.9   1.    1.    0.9   0.9   0.95  0.95  0.95  0.85
+  0.9 ]",0.997959183673,0.00403028931799,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9844,0.0190955492196,"[ 1.    0.99  1.    1.    0.99  0.99  1.    1.    0.96  0.99  1.    0.97
+  0.95  0.96  1.    0.98  0.94  0.98  1.    1.    0.99  0.99  0.98  0.99
+  1.    0.95  1.    0.99  0.96  1.    0.96  1.    0.92  0.99  1.    1.    1.
+  0.98  1.    0.99  0.99  1.    1.    0.98  0.96  1.    0.99  0.96  0.96
+  0.99]"
+46,BNU_1_proba_csd_con_aparc68+subcort,mean,pagerank,l1_l2_linf,standard,LR,0.959183673469,0.0402741771853,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.954,0.0422374241639,"[ 0.9   0.9   1.    1.    1.    0.95  1.    1.    0.9   0.85  0.95  0.95
+  0.9   0.9   1.    0.95  0.9   0.9   1.    0.95  0.95  0.95  0.95  0.95
+  1.    0.9   1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.
+  0.95  1.    1.    1.    1.    1.    0.95  0.9   0.9   0.95  0.95  0.95
+  0.9 ]",1.0,0.0,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.989,0.0164012194669,"[ 1.    0.98  1.    1.    1.    1.    1.    1.    0.95  1.    1.    1.
+  0.99  0.99  1.    0.98  0.95  0.97  1.    0.98  0.99  0.99  1.    1.    1.
+  0.94  1.    0.99  1.    1.    0.95  1.    0.95  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.98  0.99  0.99  0.97  0.98  0.97
+  0.99]"
+47,BNU_1_proba_csd_con_aparc68+subcort,mean,pagerank,l1_l2_linf,standard,SGD,0.959183673469,0.0402741771853,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.951,0.0441474801093,"[ 0.9   0.9   1.    1.    1.    0.9   1.    1.    0.9   0.9   0.95  1.    0.9
+  0.95  1.    0.9   0.9   0.9   0.95  0.95  0.95  0.9   0.95  0.95  1.
+  0.85  1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.    0.9
+  1.    1.    0.95  1.    1.    0.9   0.9   1.    0.95  0.95  0.95  0.9 ]",1.0,0.0,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9908,0.0136879509058,"[ 1.    1.    1.    1.    1.    0.99  1.    1.    0.95  1.    1.    1.
+  0.99  0.99  1.    0.98  0.96  0.98  1.    0.99  0.99  0.99  1.    1.    1.
+  0.96  1.    0.99  1.    1.    0.96  1.    0.95  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.98  0.99  0.99  0.99  0.98  0.98
+  0.98]"
+48,BNU_1_proba_csd_con_aparc68+subcort,mean,efficiency,l1_l2_linf,standard,LR,0.938775510204,0.0236633022189,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.55, 'max_iter': 50}",0.919,0.0590677577025,"[ 0.9   0.85  0.9   1.    0.95  0.85  1.    1.    0.85  0.85  0.95  0.9
+  0.9   0.95  1.    0.9   0.85  0.85  0.95  0.95  0.95  0.9   0.9   0.9   1.
+  0.8   0.95  0.95  0.85  1.    0.85  0.95  0.8   0.95  1.    0.95  1.    0.9
+  1.    0.95  0.9   1.    0.9   0.9   0.8   0.95  0.95  0.95  0.85  0.85]",0.983446712018,0.0135112850074,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.9738,0.030059274775,"[ 0.99  0.99  1.    1.    0.99  0.97  1.    1.    0.93  0.97  0.99  0.96
+  0.99  0.98  1.    0.95  0.96  0.92  0.98  0.98  0.98  0.98  0.97  0.99
+  1.    0.87  1.    0.99  0.95  1.    0.94  1.    0.87  0.98  1.    1.    1.
+  0.95  1.    0.99  0.96  1.    1.    0.96  0.96  0.97  0.98  0.96  0.93
+  0.96]"
+49,BNU_1_proba_csd_con_aparc68+subcort,mean,efficiency,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'modified_huber', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.4, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.922,0.054918120871,"[ 0.9   0.85  1.    0.95  0.9   0.95  1.    0.95  0.85  0.85  1.    0.95
+  0.9   0.9   1.    0.9   0.85  0.85  0.95  1.    0.95  0.95  0.9   0.95
+  1.    0.85  0.95  0.95  0.9   1.    0.85  0.95  0.75  0.9   1.    0.95
+  0.95  0.9   1.    0.95  0.9   0.9   0.95  0.95  0.85  0.9   0.9   0.9
+  0.85  0.9 ]",0.995464852608,0.00956093018947,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9828,0.0257713018686,"[ 0.97  0.97  1.    1.    1.    0.98  1.    0.99  0.98  0.99  1.    0.96
+  0.98  0.98  1.    0.97  0.97  0.97  0.98  1.    1.    0.99  0.98  1.    1.
+  0.87  1.    1.    0.99  1.    0.95  1.    0.89  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.97  0.96  0.99  0.99  0.98  0.95
+  0.96]"
+50,BNU_1_proba_csd_con_aparc68+subcort,mean,clustering_coefficient,l1_l2_linf,standard,LR,0.785714285714,0.0451753951453,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.79,0.0848528137424,"[ 0.85  0.9   0.85  0.9   0.7   0.8   0.85  0.8   0.75  0.75  0.8   0.75
+  0.65  0.75  0.7   0.9   0.8   0.75  0.85  0.85  0.8   0.8   0.65  0.75
+  0.8   0.7   0.7   0.8   0.7   0.8   0.75  0.85  0.55  0.85  0.9   0.95
+  0.9   0.75  0.9   0.85  0.65  0.9   0.65  0.9   0.75  0.85  0.7   0.8
+  0.75  0.85]",0.880725623583,0.066217854301,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.877,0.0869079973305,"[ 0.96  0.88  1.    0.99  0.76  0.87  0.94  0.93  0.81  0.84  0.96  0.89
+  0.78  0.9   0.84  0.95  0.8   0.86  0.88  0.9   0.91  0.92  0.73  0.85
+  0.86  0.6   0.9   0.92  0.84  0.91  0.78  0.97  0.59  0.92  0.97  0.98
+  0.97  0.91  0.95  0.9   0.79  0.98  0.84  0.94  0.92  0.91  0.81  0.81
+  0.81  0.92]"
+51,BNU_1_proba_csd_con_aparc68+subcort,mean,clustering_coefficient,l1_l2_linf,standard,SGD,0.836734693878,0.0806703484737,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'modified_huber', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 1.0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.77,0.0964365076099,"[ 0.85  0.7   0.65  0.9   0.8   0.75  1.    0.85  0.8   0.8   0.8   0.85
+  0.65  0.75  0.7   0.85  0.85  0.6   0.75  0.75  0.75  0.85  0.65  0.8
+  0.85  0.6   0.7   0.75  0.65  0.8   0.8   0.95  0.55  0.75  0.8   0.85
+  0.55  0.75  0.8   0.9   0.75  0.9   0.65  0.75  0.7   0.8   0.8   0.7
+  0.85  0.85]",0.888888888889,0.0617780097913,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.5, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.871,0.086469647854,"[ 0.95  0.8   1.    0.97  0.77  0.89  0.94  0.93  0.81  0.83  0.94  0.89
+  0.72  0.93  0.77  0.94  0.81  0.86  0.88  0.9   0.86  0.91  0.74  0.85
+  0.88  0.61  0.9   0.92  0.83  0.91  0.78  0.94  0.59  0.92  0.99  0.97
+  0.98  0.9   0.94  0.91  0.8   0.97  0.85  0.89  0.9   0.91  0.81  0.81
+  0.83  0.92]"
+52,BNU_1_proba_csd_con_aparc68+subcort,mean,triangles,l1_l2_linf,standard,LR,0.938775510204,0.0397537424046,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.929,0.0575239080731,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    0.95  0.9   0.85  0.95  0.85
+  0.85  0.9   1.    0.9   0.9   0.9   1.    0.9   0.95  0.95  0.9   0.9   1.
+  0.85  0.95  0.95  0.85  1.    0.85  0.95  0.75  0.95  1.    0.95  1.    0.9
+  1.    0.95  0.95  1.    0.85  0.95  0.85  1.    0.95  0.95  0.85  0.95]",0.991609977324,0.0118859465705,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.45, 'max_iter': 50}",0.975,0.03061045573,"[ 0.99  0.98  1.    1.    0.95  1.    1.    1.    0.98  0.98  0.98  0.94
+  0.96  0.96  1.    1.    0.95  1.    1.    0.97  0.99  1.    0.92  0.99
+  1.    0.91  0.98  1.    0.95  1.    0.94  1.    0.86  0.95  1.    1.    1.
+  0.94  1.    0.98  0.94  1.    0.98  0.98  0.94  1.    0.98  0.96  0.92
+  1.  ]"
+53,BNU_1_proba_csd_con_aparc68+subcort,mean,triangles,l1_l2_linf,standard,SGD,0.938775510204,0.0236633022189,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.933,0.0544150714417,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.9   0.9   0.9   0.95
+  0.9   0.9   1.    0.95  0.9   1.    1.    0.95  0.9   0.95  0.9   0.9   1.
+  0.9   0.9   0.95  0.85  1.    0.85  0.95  0.8   0.95  1.    0.95  1.    0.8
+  1.    0.95  0.95  0.9   0.9   0.95  0.8   1.    0.9   0.95  0.9   0.95]",0.989569160998,0.0156755525243,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.6, 'alpha': 0.5, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9732,0.0339670428504,"[ 0.99  0.98  1.    1.    0.94  1.    1.    1.    0.98  0.98  0.98  0.94
+  0.96  0.96  1.    1.    0.93  1.    1.    0.98  0.99  1.    0.92  0.99
+  1.    0.9   0.98  1.    0.95  1.    0.92  1.    0.84  0.95  1.    1.    1.
+  0.95  1.    0.96  0.94  1.    0.98  0.98  0.94  1.    0.98  0.96  0.91
+  1.  ]"
+54,BNU_1_proba_csd_con_aparc68+subcort,no_norm,bag_of_edges,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.55, 'max_iter': 50}",0.929,0.053,"[ 0.9   0.9   0.95  1.    1.    0.95  0.9   0.95  0.9   0.9   0.95  0.95
+  0.8   0.9   0.95  0.9   0.8   1.    0.95  0.9   0.9   0.95  0.85  0.95
+  1.    0.95  0.9   0.95  0.95  1.    0.9   0.95  0.8   0.95  1.    1.    1.
+  0.85  0.95  0.9   0.95  0.9   0.9   0.9   0.9   1.    0.95  0.95  0.85
+  1.  ]",0.965986394558,0.0250278920512,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.8, 'max_iter': 50}",0.9688,0.041887468293,"[ 0.94  0.97  0.99  1.    1.    1.    0.97  0.98  0.92  0.94  0.94  1.    0.8
+  0.96  1.    0.98  0.88  1.    1.    0.99  0.99  1.    0.91  0.94  1.
+  0.98  0.99  0.96  0.98  1.    0.98  1.    0.84  1.    1.    1.    1.
+  0.92  0.99  0.98  0.97  0.98  0.99  0.94  0.94  1.    0.99  0.94  0.97
+  1.  ]"
+55,BNU_1_proba_csd_con_aparc68+subcort,no_norm,bag_of_edges,l1_l2_linf,standard,SGD,0.938775510204,0.0397537424046,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.939,0.0482597140481,"[ 0.9   0.9   0.95  1.    1.    1.    0.95  0.95  0.9   0.85  0.95  0.95
+  0.8   0.9   0.95  0.95  0.85  1.    1.    0.9   0.95  0.95  0.9   0.95
+  0.95  0.95  0.9   0.95  0.95  1.    0.95  1.    0.85  0.95  1.    1.    1.
+  0.9   0.9   0.95  0.95  0.9   0.9   0.95  0.9   1.    0.95  0.95  0.85
+  1.  ]",0.974149659864,0.0273447199981,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9712,0.0392754376169,"[ 0.94  0.97  0.98  1.    1.    1.    0.97  1.    0.92  0.94  0.94  1.
+  0.83  0.97  1.    0.99  0.88  1.    1.    1.    1.    1.    0.91  0.94
+  1.    0.98  0.99  0.96  0.98  1.    0.98  1.    0.86  1.    1.    1.    1.
+  0.92  1.    0.97  0.99  0.98  0.98  0.94  0.93  1.    1.    0.94  0.98
+  1.  ]"
+56,BNU_1_proba_csd_con_aparc68+subcort,no_norm,degrees,l1_l2_linf,standard,LR,0.959183673469,0.0402741771853,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.4, 'max_iter': 50}",0.952,0.0411825205639,"[ 0.9   0.9   1.    1.    1.    0.9   1.    1.    0.9   0.9   0.95  0.95
+  0.9   0.9   1.    0.95  0.9   0.9   0.95  0.95  0.95  0.9   0.95  0.95
+  1.    0.9   1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.
+  0.95  1.    1.    1.    1.    1.    0.95  0.9   0.9   0.95  0.95  0.95
+  0.9 ]",1.0,0.0,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.9882,0.0166961073308,"[ 1.    0.99  1.    1.    1.    1.    1.    1.    0.95  0.99  1.    1.
+  0.99  0.97  1.    0.98  0.95  0.98  1.    0.98  0.99  0.99  1.    0.99
+  1.    0.94  1.    0.99  0.99  1.    0.95  1.    0.94  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.98  0.99  0.99  0.98  0.97  0.97
+  0.99]"
+57,BNU_1_proba_csd_con_aparc68+subcort,no_norm,degrees,l1_l2_linf,standard,SGD,0.959183673469,0.0402741771853,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.6, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.944,0.0506359556047,"[ 0.9   0.9   1.    1.    1.    0.9   1.    1.    0.85  0.9   0.95  1.    0.9
+  0.95  1.    0.9   0.85  0.85  0.95  0.95  0.95  0.9   0.95  0.95  1.
+  0.85  1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.    0.9
+  1.    1.    0.95  1.    1.    0.9   0.9   0.9   0.95  0.95  0.9   0.85]",1.0,0.0,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9904,0.0139942845476,"[ 1.    0.99  1.    1.    1.    0.99  1.    1.    0.95  0.99  1.    1.
+  0.99  0.98  1.    0.97  0.96  0.98  1.    0.99  1.    0.99  1.    1.    1.
+  0.96  1.    0.99  0.99  1.    0.95  1.    0.96  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.99  0.99  1.    0.99  0.98  0.97
+  0.99]"
+58,BNU_1_proba_csd_con_aparc68+subcort,no_norm,closeness_centrality,l1_l2_linf,standard,LR,0.959183673469,0.0402741771853,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.964,0.0374699879904,"[ 0.9   0.9   1.    1.    1.    1.    1.    1.    0.9   0.9   0.95  1.    0.9
+  0.95  1.    0.95  0.9   0.95  1.    0.95  0.95  0.95  0.95  0.95  1.
+  0.95  1.    0.95  0.95  1.    0.9   1.    0.9   1.    1.    1.    1.
+  0.95  1.    1.    1.    1.    1.    0.95  0.9   1.    0.95  0.95  0.95
+  0.95]",1.0,0.0,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.9938,0.0116430236623,"[ 1.    1.    1.    1.    1.    1.    1.    1.    0.98  1.    0.99  1.    1.
+  0.99  1.    1.    0.96  0.99  1.    1.    0.99  1.    0.99  1.    1.
+  0.99  1.    0.99  1.    1.    0.98  1.    0.94  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.99  0.98  1.    0.99  0.97  0.99
+  1.  ]"
+59,BNU_1_proba_csd_con_aparc68+subcort,no_norm,closeness_centrality,l1_l2_linf,standard,SGD,0.959183673469,0.0402741771853,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.963,0.0384837628098,"[ 0.9   0.9   1.    1.    1.    1.    1.    1.    0.9   0.9   0.95  1.    0.9
+  0.95  1.    0.95  0.9   0.95  1.    0.95  0.95  0.95  0.95  0.95  1.
+  0.95  1.    0.95  0.95  1.    0.9   1.    0.9   1.    1.    1.    1.    0.9
+  1.    1.    1.    1.    1.    0.95  0.9   1.    0.95  0.95  0.95  0.95]",1.0,0.0,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9916,0.0139082709206,"[ 1.    1.    1.    1.    1.    1.    1.    1.    0.96  1.    0.99  1.
+  0.99  0.99  1.    0.99  0.97  1.    1.    0.99  0.98  1.    0.99  1.    1.
+  0.97  1.    0.99  1.    1.    0.96  1.    0.94  1.    1.    1.    1.
+  0.96  1.    1.    1.    1.    1.    0.99  0.97  1.    0.99  0.98  0.98
+  1.  ]"
+60,BNU_1_proba_csd_con_aparc68+subcort,no_norm,betweenness_centrality,l1_l2_linf,standard,LR,0.602040816327,0.0622365333958,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.601,0.0924608025057,"[ 0.45  0.5   0.7   0.6   0.55  0.8   0.55  0.5   0.6   0.75  0.5   0.5
+  0.55  0.6   0.75  0.8   0.75  0.6   0.65  0.6   0.45  0.7   0.45  0.65
+  0.5   0.65  0.55  0.65  0.6   0.7   0.7   0.65  0.6   0.7   0.5   0.6
+  0.6   0.6   0.65  0.45  0.45  0.65  0.6   0.7   0.6   0.65  0.55  0.55
+  0.5   0.55]",0.599319727891,0.0788797274635,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.6008,0.130902100823,"[ 0.56  0.49  0.73  0.51  0.52  0.77  0.54  0.39  0.58  0.73  0.48  0.43
+  0.4   0.5   0.9   0.9   0.81  0.53  0.64  0.62  0.48  0.75  0.45  0.7
+  0.59  0.78  0.67  0.69  0.6   0.76  0.68  0.69  0.73  0.69  0.53  0.62
+  0.51  0.59  0.6   0.39  0.34  0.59  0.51  0.8   0.51  0.59  0.55  0.61
+  0.43  0.58]"
+61,BNU_1_proba_csd_con_aparc68+subcort,no_norm,betweenness_centrality,l1_l2_linf,standard,SGD,0.612244897959,0.0572197409567,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.6, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.563,0.078619336044,"[ 0.5   0.5   0.7   0.6   0.5   0.65  0.55  0.45  0.55  0.65  0.5   0.5
+  0.6   0.5   0.5   0.5   0.5   0.5   0.7   0.6   0.45  0.7   0.4   0.6
+  0.55  0.55  0.6   0.65  0.45  0.7   0.65  0.6   0.6   0.6   0.6   0.55
+  0.6   0.6   0.5   0.5   0.35  0.65  0.6   0.65  0.55  0.65  0.55  0.6
+  0.5   0.55]",0.599319727891,0.0788797274635,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.5, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.6008,0.131663814315,"[ 0.56  0.49  0.73  0.51  0.52  0.77  0.54  0.39  0.58  0.74  0.48  0.43
+  0.4   0.5   0.91  0.9   0.81  0.53  0.64  0.62  0.48  0.75  0.44  0.69
+  0.59  0.78  0.67  0.69  0.6   0.76  0.68  0.69  0.73  0.69  0.53  0.62
+  0.51  0.59  0.6   0.39  0.34  0.59  0.51  0.8   0.51  0.59  0.55  0.61
+  0.43  0.58]"
+62,BNU_1_proba_csd_con_aparc68+subcort,no_norm,eigenvector_centrality,l1_l2_linf,standard,LR,0.948979591837,0.0345702746865,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.942,0.0541848687366,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    1.    0.9   0.9   0.95  0.9
+  0.85  0.9   1.    0.95  0.9   0.95  1.    0.9   0.95  0.95  0.9   0.95
+  1.    0.85  1.    0.95  0.9   1.    0.85  1.    0.75  0.95  1.    1.    1.
+  0.95  1.    0.95  0.95  1.    0.9   0.95  0.85  1.    0.95  0.95  0.9
+  0.95]",0.995918367347,0.00491493656277,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.25, 'max_iter': 50}",0.985,0.0174642491966,"[ 1.    0.99  1.    1.    1.    0.98  1.    1.    0.95  0.99  0.99  0.98
+  0.97  0.96  1.    0.98  0.96  0.97  0.99  0.99  0.99  0.99  0.98  0.99
+  1.    0.93  1.    0.99  0.98  1.    0.96  1.    0.94  1.    1.    1.    1.
+  0.97  1.    1.    1.    1.    1.    0.98  0.96  0.99  0.99  0.96  0.97
+  0.98]"
+63,BNU_1_proba_csd_con_aparc68+subcort,no_norm,eigenvector_centrality,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.938,0.0495580467735,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.85  0.9   0.95  0.95
+  0.9   0.95  1.    0.9   0.85  0.9   0.95  0.95  0.95  0.9   0.9   0.95
+  1.    0.85  1.    0.95  0.9   0.95  0.85  1.    0.85  0.95  1.    1.    1.
+  0.9   1.    0.95  0.9   1.    1.    0.9   0.9   0.95  0.95  0.95  0.85
+  0.9 ]",0.997959183673,0.00403028931799,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.01, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9844,0.0190955492196,"[ 1.    0.99  1.    1.    0.99  0.99  1.    1.    0.96  0.99  1.    0.97
+  0.95  0.96  1.    0.98  0.94  0.98  1.    1.    0.99  0.99  0.98  0.99
+  1.    0.95  1.    0.99  0.96  1.    0.96  1.    0.92  0.99  1.    1.    1.
+  0.98  1.    0.99  0.99  1.    1.    0.98  0.96  1.    0.99  0.96  0.96
+  0.99]"
+64,BNU_1_proba_csd_con_aparc68+subcort,no_norm,pagerank,l1_l2_linf,standard,LR,0.959183673469,0.0402741771853,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.954,0.0422374241639,"[ 0.9   0.9   1.    1.    1.    0.95  1.    1.    0.9   0.85  0.95  0.95
+  0.9   0.9   1.    0.95  0.9   0.9   1.    0.95  0.95  0.95  0.95  0.95
+  1.    0.9   1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.
+  0.95  1.    1.    1.    1.    1.    0.95  0.9   0.9   0.95  0.95  0.95
+  0.9 ]",1.0,0.0,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.989,0.0164012194669,"[ 1.    0.98  1.    1.    1.    1.    1.    1.    0.95  1.    1.    1.
+  0.99  0.99  1.    0.98  0.95  0.97  1.    0.98  0.99  0.99  1.    1.    1.
+  0.94  1.    0.99  1.    1.    0.95  1.    0.95  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.98  0.99  0.99  0.97  0.98  0.97
+  0.99]"
+65,BNU_1_proba_csd_con_aparc68+subcort,no_norm,pagerank,l1_l2_linf,standard,SGD,0.959183673469,0.0402741771853,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.1, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.951,0.0441474801093,"[ 0.9   0.9   1.    1.    1.    0.9   1.    1.    0.9   0.9   0.95  1.    0.9
+  0.95  1.    0.9   0.9   0.9   0.95  0.95  0.95  0.9   0.95  0.95  1.
+  0.85  1.    0.95  0.95  1.    0.9   0.95  0.9   1.    1.    1.    1.    0.9
+  1.    1.    0.95  1.    1.    0.9   0.9   1.    0.95  0.95  0.95  0.9 ]",1.0,0.0,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9908,0.0136879509058,"[ 1.    1.    1.    1.    1.    0.99  1.    1.    0.95  1.    1.    1.
+  0.99  0.99  1.    0.98  0.96  0.98  1.    0.99  0.99  0.99  1.    1.    1.
+  0.96  1.    0.99  1.    1.    0.96  1.    0.95  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.98  0.99  0.99  0.99  0.98  0.98
+  0.98]"
+66,BNU_1_proba_csd_con_aparc68+subcort,no_norm,efficiency,l1_l2_linf,standard,LR,0.938775510204,0.0236633022189,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.55, 'max_iter': 50}",0.919,0.0590677577025,"[ 0.9   0.85  0.9   1.    0.95  0.85  1.    1.    0.85  0.85  0.95  0.9
+  0.9   0.95  1.    0.9   0.85  0.85  0.95  0.95  0.95  0.9   0.9   0.9   1.
+  0.8   0.95  0.95  0.85  1.    0.85  0.95  0.8   0.95  1.    0.95  1.    0.9
+  1.    0.95  0.9   1.    0.9   0.9   0.8   0.95  0.95  0.95  0.85  0.85]",0.983446712018,0.0135112850074,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.9738,0.030059274775,"[ 0.99  0.99  1.    1.    0.99  0.97  1.    1.    0.93  0.97  0.99  0.96
+  0.99  0.98  1.    0.95  0.96  0.92  0.98  0.98  0.98  0.98  0.97  0.99
+  1.    0.87  1.    0.99  0.95  1.    0.94  1.    0.87  0.98  1.    1.    1.
+  0.95  1.    0.99  0.96  1.    1.    0.96  0.96  0.97  0.98  0.96  0.93
+  0.96]"
+67,BNU_1_proba_csd_con_aparc68+subcort,no_norm,efficiency,l1_l2_linf,standard,SGD,0.948979591837,0.0345702746865,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'modified_huber', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.4, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.922,0.054918120871,"[ 0.9   0.85  1.    0.95  0.9   0.95  1.    0.95  0.85  0.85  1.    0.95
+  0.9   0.9   1.    0.9   0.85  0.85  0.95  1.    0.95  0.95  0.9   0.95
+  1.    0.85  0.95  0.95  0.9   1.    0.85  0.95  0.75  0.9   1.    0.95
+  0.95  0.9   1.    0.95  0.9   0.9   0.95  0.95  0.85  0.9   0.9   0.9
+  0.85  0.9 ]",0.995464852608,0.00956093018947,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9828,0.0257713018686,"[ 0.97  0.97  1.    1.    1.    0.98  1.    0.99  0.98  0.99  1.    0.96
+  0.98  0.98  1.    0.97  0.97  0.97  0.98  1.    1.    0.99  0.98  1.    1.
+  0.87  1.    1.    0.99  1.    0.95  1.    0.89  1.    1.    1.    1.
+  0.98  1.    1.    1.    1.    1.    0.97  0.96  0.99  0.99  0.98  0.95
+  0.96]"
+68,BNU_1_proba_csd_con_aparc68+subcort,no_norm,clustering_coefficient,l1_l2_linf,standard,LR,0.785714285714,0.0451753951453,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.79,0.0848528137424,"[ 0.85  0.9   0.85  0.9   0.7   0.8   0.85  0.8   0.75  0.75  0.8   0.75
+  0.65  0.75  0.7   0.9   0.8   0.75  0.85  0.85  0.8   0.8   0.65  0.75
+  0.8   0.7   0.7   0.8   0.7   0.8   0.75  0.85  0.55  0.85  0.9   0.95
+  0.9   0.75  0.9   0.85  0.65  0.9   0.65  0.9   0.75  0.85  0.7   0.8
+  0.75  0.85]",0.880725623583,0.066217854301,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l2', 'n_jobs': -1, 'C': 0.01, 'max_iter': 50}",0.877,0.0869079973305,"[ 0.96  0.88  1.    0.99  0.76  0.87  0.94  0.93  0.81  0.84  0.96  0.89
+  0.78  0.9   0.84  0.95  0.8   0.86  0.88  0.9   0.91  0.92  0.73  0.85
+  0.86  0.6   0.9   0.92  0.84  0.91  0.78  0.97  0.59  0.92  0.97  0.98
+  0.97  0.91  0.95  0.9   0.79  0.98  0.84  0.94  0.92  0.91  0.81  0.81
+  0.81  0.92]"
+69,BNU_1_proba_csd_con_aparc68+subcort,no_norm,clustering_coefficient,l1_l2_linf,standard,SGD,0.836734693878,0.0806703484737,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'modified_huber', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 1.0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.77,0.0964365076099,"[ 0.85  0.7   0.65  0.9   0.8   0.75  1.    0.85  0.8   0.8   0.8   0.85
+  0.65  0.75  0.7   0.85  0.85  0.6   0.75  0.75  0.75  0.85  0.65  0.8
+  0.85  0.6   0.7   0.75  0.65  0.8   0.8   0.95  0.55  0.75  0.8   0.85
+  0.55  0.75  0.8   0.9   0.75  0.9   0.65  0.75  0.7   0.8   0.8   0.7
+  0.85  0.85]",0.888888888889,0.0617780097913,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.8, 'alpha': 0.5, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.871,0.086469647854,"[ 0.95  0.8   1.    0.97  0.77  0.89  0.94  0.93  0.81  0.83  0.94  0.89
+  0.72  0.93  0.77  0.94  0.81  0.86  0.88  0.9   0.86  0.91  0.74  0.85
+  0.88  0.61  0.9   0.92  0.83  0.91  0.78  0.94  0.59  0.92  0.99  0.97
+  0.98  0.9   0.94  0.91  0.8   0.97  0.85  0.89  0.9   0.91  0.81  0.81
+  0.83  0.92]"
+70,BNU_1_proba_csd_con_aparc68+subcort,no_norm,triangles,l1_l2_linf,standard,LR,0.938775510204,0.0397537424046,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.05, 'max_iter': 50}",0.929,0.0575239080731,"[ 0.9   0.9   0.95  1.    0.95  1.    1.    0.95  0.9   0.85  0.95  0.85
+  0.85  0.9   1.    0.9   0.9   0.9   1.    0.9   0.95  0.95  0.9   0.9   1.
+  0.85  0.95  0.95  0.85  1.    0.85  0.95  0.75  0.95  1.    0.95  1.    0.9
+  1.    0.95  0.95  1.    0.85  0.95  0.85  1.    0.95  0.95  0.85  0.95]",0.991609977324,0.0118859465705,"{'random_state': 0, 'fit_intercept': True, 'solver': 'liblinear', 'penalty': 'l1', 'n_jobs': -1, 'C': 0.45, 'max_iter': 50}",0.975,0.03061045573,"[ 0.99  0.98  1.    1.    0.95  1.    1.    1.    0.98  0.98  0.98  0.94
+  0.96  0.96  1.    1.    0.95  1.    1.    0.97  0.99  1.    0.92  0.99
+  1.    0.91  0.98  1.    0.95  1.    0.94  1.    0.86  0.95  1.    1.    1.
+  0.94  1.    0.98  0.94  1.    0.98  0.98  0.94  1.    0.98  0.96  0.92
+  1.  ]"
+71,BNU_1_proba_csd_con_aparc68+subcort,no_norm,triangles,l1_l2_linf,standard,SGD,0.938775510204,0.0236633022189,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'hinge', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0, 'alpha': 0.001, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.933,0.0544150714417,"[ 0.9   0.9   1.    1.    0.95  0.95  1.    1.    0.9   0.9   0.9   0.95
+  0.9   0.9   1.    0.95  0.9   1.    1.    0.95  0.9   0.95  0.9   0.9   1.
+  0.9   0.9   0.95  0.85  1.    0.85  0.95  0.8   0.95  1.    0.95  1.    0.8
+  1.    0.95  0.95  0.9   0.9   0.95  0.8   1.    0.9   0.95  0.9   0.95]",0.989569160998,0.0156755525243,"{'learning_rate': 'optimal', 'penalty': 'elasticnet', 'loss': 'log', 'n_jobs': -1, 'verbose': 0, 'eta0': 0.0, 'class_weight': None, 'random_state': 0, 'epsilon': 0.1, 'fit_intercept': True, 'l1_ratio': 0.6, 'alpha': 0.5, 'power_t': 0.5, 'n_iter': 50, 'shuffle': True}",0.9732,0.0339670428504,"[ 0.99  0.98  1.    1.    0.94  1.    1.    1.    0.98  0.98  0.98  0.94
+  0.96  0.96  1.    1.    0.93  1.    1.    0.98  0.99  1.    0.92  0.99
+  1.    0.9   0.98  1.    0.95  1.    0.92  1.    0.84  0.95  1.    1.    1.
+  0.95  1.    0.96  0.94  1.    0.98  0.98  0.94  1.    0.98  0.96  0.91
+  1.  ]"
