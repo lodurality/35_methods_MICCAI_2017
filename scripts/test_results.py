@@ -61,7 +61,6 @@ if __name__ == "__main__":
 
                 for column in raw_df.columns.values:
                     if 'best_params' not in column and 'icc_values' not in column:
-                        print(column)
                         assert (raw_df[column] == script_df[column]).all()
 
                     if 'best_params' in column:
