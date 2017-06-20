@@ -14,12 +14,8 @@ Columns
 
 *features* — connectome features
 
-*PACC_mean* — pairwise accuracy mean on evaluation splits
+*PACC_mean{std}* — pairwise accuracy mean(std) on evaluation splits
 
-*PACC_std* — pairwise accuracy std on evaluation splits
-
-*gender_eval_accuracy_std* — gender classification accuracy mean on evaluation splits
-
-*gender_eval_accuracy_mean* — gender classification accuracy std on evaluation splits
+*gender_eval_accuracy_mean{std}* — gender classification accuracy mean(std) on evaluation splits
 
 *icc_mean{std, max, median}* — ICC mean, std, max, median by features  
